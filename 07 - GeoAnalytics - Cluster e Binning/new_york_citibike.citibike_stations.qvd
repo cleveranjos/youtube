@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50622</QvBuildNo>
+   <CreatorDoc>e634c018-0e47-4b16-b9a5-98496a21d05a</CreatorDoc>
+   <CreateUtcTime>2020-05-18 14:52:16</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Stations</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>station_id</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>######################</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>937</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>4685</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>name</FieldName>
+       <BitOffset>22</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>937</NoOfSymbols>
+       <Offset>4685</Offset>
+       <Length>20908</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>short_name</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>937</NoOfSymbols>
+       <Offset>25593</Offset>
+       <Length>8331</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>latitude</FieldName>
+       <BitOffset>54</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>936</NoOfSymbols>
+       <Offset>33924</Offset>
+       <Length>8424</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>longitude</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>REAL</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>937</NoOfSymbols>
+       <Offset>42348</Offset>
+       <Length>8433</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>point</FieldName>
+       <BitOffset>74</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>937</NoOfSymbols>
+       <Offset>50781</Offset>
+       <Length>25766</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$geopoint</String>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>region_id</FieldName>
+       <BitOffset>84</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>######################</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>76547</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>rental_methods</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>ASCII</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76557</Offset>
+       <Length>16</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>capacity</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>######################</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>63</NoOfSymbols>
+       <Offset>76573</Offset>
+       <Length>315</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>eightd_has_key_dispenser</FieldName>
+       <BitOffset>85</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>76888</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>num_bikes_available</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>######################</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>52</NoOfSymbols>
+       <Offset>76898</Offset>
+       <Length>260</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>num_bikes_disabled</FieldName>
+       <BitOffset>42</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>######################</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>77158</Offset>
+       <Length>25</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>num_docks_available</FieldName>
+       <BitOffset>48</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>######################</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>56</NoOfSymbols>
+       <Offset>77183</Offset>
+       <Length>280</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>num_docks_disabled</FieldName>
+       <BitOffset>45</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>######################</Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>77463</Offset>
+       <Length>25</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>is_installed</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>77488</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>is_renting</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>77493</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>is_returning</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>77498</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>eightd_has_available_keys</FieldName>
+       <BitOffset>86</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>.</Dec>
+         <Thou>,</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>77503</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>last_reported</FieldName>
+       <BitOffset>87</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt>YYYY-MM-DD hh:mm:ss.ffffff</Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>77513</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>11</RecordByteSize>
+   <NoOfRecords>937</NoOfRecords>
+   <Offset>77523</Offset>
+   <Length>10307</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>{Google_BigQuery_northern-eon-222913 (sense_qlik)};</Discriminator>
+       <Statement>SELECT  
+	station_id,
+    name,
+    short_name,
+    latitude,
+    longitude,
+    region_id,
+    rental_methods,
+    capacity,
+    eightd_has_key_dispenser,
+    num_bikes_available,
+    num_bikes_disabled,
+    num_docks_available,
+    num_docks_disabled,
+    is_installed,
+    is_renting,
+    is_returning,
+    eightd_has_available_keys,
+    last_reported FROM `bigquery-public-data.new_york_citibike.citibike_stations`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>{Google_BigQuery_northern-eon-222913 (sense_qlik)};</Discriminator>
+       <Statement>Stations:
+Load 
+ 	station_id,
+    name,
+    short_name,
+    latitude,
+    longitude,
+    GeoMakePoint(latitude,longitude) as point,
+    region_id,
+    rental_methods,
+    capacity,
+    eightd_has_key_dispenser,
+    num_bikes_available,
+    num_bikes_disabled,
+    num_docks_available,
+    num_docks_disabled,
+    is_installed,
+    is_renting,
+    is_returning,
+    eightd_has_available_keys,
+    last_reported;SELECT  
+	station_id,
+    name,
+    short_name,
+    latitude,
+    longitude,
+    region_id,
+    rental_methods,
+    capacity,
+    eightd_has_key_dispenser,
+    num_bikes_available,
+    num_bikes_disabled,
+    num_docks_available,
+    num_docks_disabled,
+    is_installed,
+    is_renting,
+    is_returning,
+    eightd_has_available_keys,
+    last_reported FROM `bigquery-public-data.new_york_citibike.citibike_stations`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>{STORE - [lib://demoData/new_york_citibike.citibike_stations.qvd](qvd)};</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+   <EncryptionInfo></EncryptionInfo>
+ </QvdTableHeader>
+    â  Õ  Í  S   ½  "  ¢  -  j  ı  ²  Ú    Ô  ì  õ  g  ­   Õ  ‚  :  İ  E  ‹  Ô   y  q  ]  Ö  i      ¦  Æ  Í  Ã  Ğ  ›  p  È  _  Ä  Å  Ë  ™  Ñ    Î    *  #    ‡    ?  !  F  	    9  =  C    ·  a  ù  é  Š    w  É  n    Ï    ]  é  |    ~  ‚  ;  ñ  ”  y  T  ^  ò  6  8  ÿ  @  í  ÷        M  u  ©  ã  U  ó    A        I    Ó  ì    â  ú  ì    &  ô    -  w   C    ±  #  «  ú  4  !  î  ®  >  ï    x     »  Â  Ê  k  x  ã    å  %  ¥  è  }  ¯  à  ç    +  ·     æ  ¼    0  ÷        ½    ó    ë    #  î  .  E    3    B  /    \  Y      5    ï  ª  ´  ^  ø  ç    ÷      ¬  ê    È  ş  ğ        Å  ú  õ        ¹  Ú  á  µ  º  ‰  ‹  ·  s  ö  q  x  Ä      ™  G  ô  8  …  z  €  æ  "  Œ  Ë  û  d        W  ö  º  ş  ó  »  J  ß  $  £  ì  ©  °  õ   9  O  ?  Á  ñ   ¢  â  F  ğ    ˜  !  	  ¸  ğ    ]  ¥       $    æ  5  Ä  ù    &  X  ¸  M  „  ¾  .  H  í  8  Ø     ø  ê    †  ­  å   ø   ï  ö  ,  ¤  ¹  À  k       õ     Ø  H  İ  G  Ü  ò  \  >  á      £  õ  ~  µ  î  ó  è  !      '    ¶  Ã     Ì  ü  E  á  ü  ;  ¦  É  @    ?  º  ú  õ  ç    ş  Œ  Ã  ¨  <      "  
+    1  D  7  ù  W    '  î  û     %  *  7  «    5  ¡       ä  ã    í    
+  X    8  f  İ    §  >  ƒ  Ì    ‡    T  †    é  )  À  Û  Æ    t  3  P  Y  ²  )  a    $  -  :  `  J  ³  ¿    T    Ï    ¡    -  L  S  •  Â    A  Z  …  U  À  Ò  d  è  Ì  Z  [  Ø    !  ä  4  K    l  1  ÿ  Ç      §  ì  ê  Ë  !  A  û   ¤  æ  ı  »  4    °  O    ±  R   ù   â  ã    (    %  ø  û  m  ´    ^    &    =  ş  2  ı  	  ®  à  œ  Ñ  «  |  ;  _  ı  V      ñ  ë  ñ      )  ²  ü  ­  ñ    Ö  ÿ  Ğ    (  ¯  3    K  <  €   Å  N  7  P  ‹  ®   í    s  ª  Ğ  S  A  ü  »  ï        “  ,  M     7  °  ¬  
+  ¢  Æ  8  N  2  L  ï   ù  W  µ  ¥  `    Ê      ›     ƒ  A  ×  V  ë  î   Í      g  ¶  ß  ´  †  ¿    R  2  ò  š     ÷  6  ô   9  £  ı  :  ;  ¼  5  %  à     ÿ  R  &  ò  ¸    Ï      Ù  (  •  1  .  —   0  ¤  V  o  -    ü   a  #  ß   ô  n  ±  O   Z      æ  Ù  …  ?  Ó  Š  ¾  Í  6  ã  È  "  –  í  œ  {  ‰  	  	  ç  ,  3  Q  ¡   E  „  ˆ  *  Ò  Ü  /  Ô  ™  Ú    <  [  ½  Æ  ÷  Ù  b  F  ×  7      Á  6    P  ó  ö  .  ³  j  L  Ş  ‡  á  O  Ç  É  T  ›  Î  ‰  W  ğ  —  Ò    Ş  Ô  ï        j  ª  í   ·  Ø  å  e  J    #  m  Î  Õ  C  ,      ö  )  a  e  p  Ñ      ƒ  c  Ù   G  0  f  X  ®  é         '  _  Ú  ’  Ö  á  à  Œ  ’   J  K  ¡  h  @  Ÿ  '  ê  s  å    ú   Û  F  ^  ˜    €    F  ç  æ    5      ?    r  P  {  ‘  .  à    |     ¬  ü  Ÿ  –  [  q  C  x  i    Õ    p  O  c  Ğ  å  |  Ó  Ü  ‚  <  Ã   /  š  û  "  ¼  k  §   I  L  Ò  š  ò   H      ä  •  “    H  ¾  Î    Ü  b  ¨   ˜  @  ×  G  ¤   ğ  «  ¶  ì   Ó  i  N  J  ä  Ö  Ë  ø  k  é  Ê  Ù  –  ³  +  f  t   •  D  ]    º  
+  $     }    >    ô  ë  ù  Ğ  á  ø    Ó  9  =  È  H     _  Ø  {  ÷   D  `  ä   %  –   Ö  g  Ç    ¿  ß  ş   Y  û  Å    ê  ñ  î  \  Â  ×  /  Nassau St & Navy St W 15 St & 7 Ave Railroad Ave & Kay Ave E 20 St & 2 Ave Atlantic Ave & Fort Greene Pl E 10 St & Avenue A Menahan St & Seneca Ave 6 Ave & Broome St E 2 St & Avenue B Broadway & W 37 St 9 Ave & W 22 St 9 Ave & W 18 St 5 Ave & E 29 St Broadway & W 36 St Broadway & W 56 St W 33 St & 7 Ave FDR Drive & E 35 St E 47 St & Park Ave Broadway & W 49 St Broadway & W 53 St Division Ave & Hooper St E 63 St & 3 Ave W 41 St & 8 Ave 1 Ave & E 68 St W Broadway & Spring St W 16 St & The High Line 6 Ave & Canal St Washington Pl & 6 Ave Rivington St & Ridge St W 20 St & 8 Ave W 84 St & Broadway Pershing Square North Pershing Square South W 59 St & 10 Ave Jersey & 6th St Communipaw & Berry Lane Morris Canal Astor Place Montgomery St Paulus Hook Jersey & 3rd Bergen Ave Lafayette Park Brunswick & 6th Columbus Drive Baldwin at Montgomery Leonard Gordon Park Newport Pkwy Monmouth and 6th 30 Ave & 21 St Norman St & Wyckoff Ave Stephen St & Seneca Ave Pitt St & Stanton St Clark St & Henry St Rogers Ave & Sterling St Jefferson Ave & Evergreen Ave Madison St & Cypress Ave Greene Ave & Grandview Ave Suydam St & St. Nicholas Ave Stewart Ave & Johnson Ave Onderdonk Ave & Dekalb Ave Stanhope St & Fairview Ave Central Ave & Melrose St Graham Ave & Withers St 8 Ave & W 31 St Grand St Madison St & Evergreen Ave Cambridge Pl & Gates Ave Pershing Field Central Ave & Woodbine St Union St Manila & 1st Jackson Square Dey St Dixon Mills 35 St & Broadway Glenwood Ave Withers St & Kingsland Ave Riverview Park Linden St & Knickerbocker Ave Heights Elevator Newport PATH Manhattan Av & Leonard St Kosciuszko St & Tompkins Ave 5 Corners Library Lincoln Park Pacific St & Nevins St Fairmount Ave Moffat St & Bushwick Washington St Journal Square Boerum St & Broadway Commerce St & Van Brunt St 36 Ave & 10 St Crescent St & 34 Ave Crescent St & Broadway Sullivan Pl & Bedford Ave 31 Ave & 14 St Montgomery St & Franklin Ave Willoughby Ave & Walworth St Monroe St & Tompkins Ave 27 Ave & 3 St Stanton St & Mangin St Pulaski St & Marcus Garvey Blvd Pioneer St & Van Brunt St Richards St & Delavan St Broadway & 12 St Carroll St & Franklin Ave Sterling St & Bedford Ave Sands St Gate Coffey St & Conover St 10 St & 2 Ave Willoughby Ave & Myrtle Ave Washington Ave & Greene Ave Fulton St & Utica Ave Tompkins Ave & Hopkins St 21 St & 36 Ave Knickerbocker Ave & Halsey St Cypress Ave & George St Willoughby Ave & Tompkins Ave 34 Ave & 13 St Onderdonk Ave & Gates Ave Park Ave & St Edwards St Henry St & W 9 St Degraw St & Hoyt St Verona Pl & Fulton St Newtown Ave & 23 St DeKalb Ave & Franklin Ave Irving Ave & Halsey St 38 Ave & 29 St Monroe St & Classon Ave Greene Ave & Throop Ave George St & Wilson Ave Fairview Ave & Linden St 11 St & 35 Ave Newton Rd & 44 St Lexington Ave & Classon Ave Concord St & Bridge St 24 Ave & 26 St 37 St & 24 Ave Crescent St & Ditmars Blvd 28 Ave & 44 St 47 Ave & Skillman Ave Lewis Ave & Decatur St Union Ave & Jackson St 40 Ave & 9 St 27 Ave & 9 St Clermont Ave & Park Ave Putnam Ave & Nostrand Ave Devoe St & Lorimer St Irving Ave & Jefferson St 24 St & 41 Ave 21 St & 38 Ave Engert Ave & McGuinness Blvd Harman St & Seneca Ave Powers St & Olive St Hancock St & Wyckoff Ave Marcus Garvey Blvd & Macon St Devoe St & Morgan Ave Henry St & Bay St Woodward Ave & Harman St Nostrand Ave & Myrtle Ave Kent St & McGuinness Blvd Center Blvd & 51 Ave Metropolitan Ave & Stewart Ave Knickerbocker Ave & Thames St Lorimer St & Calyer St Halsey St & Broadway Menahan St & Wyckoff Ave Green St & McGuinness Blvd Melrose St & Broadway Madison St & Montgomery St Bushwick Ave & Forrest St Menahan St & Onderdonk Ave Madison St & Woodward Ave Harrison Pl & Porter Ave Irving Ave & Palmetto St Van Vorst Park Columbia St & W 9 St Flushing Ave & Woodward Ave Van Brunt St & Wolcott St Douglass St & 3 Ave Dean St & Franklin Ave Columbia St & Lorraine St Wolcott St & Dwight St 3 St & Hoyt St Vernon Blvd & 10 St Columbia St & Kane St Pleasant Ave & E 120 St Bushwick Ave & McKibbin St Columbia St & Degraw St Central Ave & Weirfield St Halsey St & Tompkins Ave Amsterdam Ave & W 66 St 14 St & 5 Ave 31 Ave & Crescent St 21 St & 31 Dr White St & Moore St Putnam Ave & Throop Ave Sigourney St & Columbia St Steinway St & 23 Ave Clinton St & Centre St 34 St & 35 Ave 31 Ave & 30 St 44 Dr & 21 St Irving Ave & Harman St 23 Ave & 27 St Park Pl & Franklin Ave Throop Ave & Myrtle Ave 49 Ave & 21 St 5 St & 51 Ave S 4 St & Rodney St 21 St & Hoyt Ave S Pacific St & Classon Ave 6 St & 7 Ave Bushwick Ave & Stagg St Central Ave & Flushing Ave Brunswick St Newark Ave Adam Clayton Powell Blvd & W 115 St Warren St Halsey St & Evergreen Ave City Hall Liberty Light Rail Wyckoff Av & Stanhope St Essex Light Rail Frost St & Debevoise Ave York St Wyckoff St & Nevins St Eldert St & Bushwick Ave Madison St & Seneca Ave JC Medical Center McGinley Square Jackson St & Leonard St Columbus Ave & W 103 St Driggs Ave & N Henry St Christ Hospital Dock 72 Way & Market St Knickerbocker Ave & Hancock St Bialystoker Pl & Delancey St Pioneer St & Richards St Vernon Blvd & 31 Ave Myrtle Ave & Grove St Clinton Ave & Flushing Ave Myrtle Ave & Marcy Ave Astoria Park S & Shore Blvd McKibbin St & Manhattan Ave Henry St & Degraw St Bedford Ave & S 9 St Court St & State St 3 Ave & E 112 St Forest Ave & Summerfield St Carlton Ave & Park Ave Lewis Ave & Madison St Pleasant Ave & E 116 St Willoughby Ave & Wyckoff Ave Myrtle Ave & St Edwards St Washington Ave & Park Ave Union St & Nevins St 48 Ave & 30 Pl Stockholm St & Wilson Ave DeKalb Ave & S Portland Ave Front St & Gold St Warren St & Court St Smith St & 9 St Van Sinderen Ave & Truxton St DeKalb Ave & Vanderbilt Ave Market St & Cherry St Carroll St & 6 Ave Dwight St & Van Dyke St Waterbury St & Stagg St Kosciuszko St & Nostrand Ave Berkeley Pl & 6 Ave Hoyt St & Warren St Lexington Ave & E 36 St Henry St & Atlantic Ave India St & West St 11 St & 43 Ave W 107 St & Columbus Ave E 56 St & Madison Ave 45 Rd & 11 St 19 St & 24 Ave 34 Ave & 21 St Crescent St & 30 Ave E 128 St & Madison Ave Monroe St & Bedford Ave Pier 40 - Hudson River Park 5 St & 6 Ave 40 Ave & Crescent St Knickerbocker Ave & George St Avenue D & E 3 St Watts St & Greenwich St Marcy Ave & Lafayette Ave 21 St & 43 Ave Columbia Heights & Cranberry St Adelphi St & Myrtle Ave Myrtle Ave & Lewis Ave 10 St & 7 Ave 31 Ave & 34 St E 11 St & Avenue B Stagg St & Morgan Ave Great Jones St Laight St & Hudson St Greene Ave & Nostrand Ave Prospect Pl & Underhill Ave Centre St & Seneca Ave Clermont Ave & Lafayette Ave White St & Johnson Ave Central Ave & Starr Street Park Ave & Marcus Garvey Blvd 11 Ave & W 59 St Leonard St & Boerum St 10 St & 5 Ave Clinton St & Joralemon St Little West St & 1 Pl E 110 St & Madison Ave W 92 St & Broadway 7 St & 3 Ave Front St & Jay St Lewis Ave & Kosciuszko St Van Brunt St & Van Dyke St E 109 St & 3 Ave Kingston Ave & Herkimer St Van Buren St & Broadway Knickerbocker Ave & Cooper St E 118 St & 1 Ave Central Ave & Decatur St Leonard St & Maujer St Macon St & Nostrand Ave 14 St & 7 Ave Bedford Ave & Bergen St Metropolitan Ave & Vandervoort Ave N 15 St & Wythe Ave Washington Park Union St & Bedford Ave Pike St & E Broadway Pierrepont St & Monroe Pl Sharon St & Olive St Hart St & Wyckoff Ave Putnam Ave & Wyckoff Ave S 4 St & Wythe Ave W 46 St & 11 Ave Court St & Nelson St S 3 St & Bedford Ave 3 Ave & 14 St E 106 St & Madison Ave E 115 St & Lexington Ave Lenox Ave & W 130 St Flushing Ave & Vanderbilt Ave Roebling St & N 4 St E 106 St & 1 Ave South End Ave & Liberty St 12 St & 4 Ave 35 St & 34 Ave Butler St & Court St E 102 St & 1 Ave Bushwick Ave & Harman St Lefferts Pl & Franklin Ave 24 Ave & 29 St 1 Ave & E 110 St President St & Henry St 43 St & Broadway Duane St & Greenwich St 27 St & Hunter St Hope St & Union Ave Myrtle Ave & Linden St Carroll St & Bond St Clinton St & 4 Place Cypress Ave & Palmetto St Clinton St & Union St Prospect Pl & 6 Ave Central Ave & Himrod St Broadway & Madison St Crescent St & 35 Ave Sterling Pl & Bedford Ave Steinway St & 28 Ave Madison St & Forest Ave E 78 St & 2 Ave Cathedral Pkwy & Broadway 2 Ave & E 122 St Kingsland Ave & Nassau Ave Rockaway Ave & Bainbridge St Barclay St & Church St Garfield Pl & 8 Ave Amsterdam Ave & W 79 St Prospect Park West & 8 St E 98 St & Park Ave E 66 St & Madison Ave Evergreen Ave & Noll St Cedar St & Evergreen Ave Jefferson St & Cypress Ave 7 Ave & Park Pl Menahan St & Central Ave Smith St & 3 St Richardson St & N Henry St Grand Ave & Bergen St Morgan Ave & Maspeth Ave E 114 St & 1 Ave 35 Ave & 10 St Hamilton Park Marin Light Rail Graham Ave & Herbert St Oakland Ave Broadway & Roebling St Leonard St & Nassau Ave Hilltop Wilson Ave & Troutman St 37 Ave & 35 St Greenpoint Ave & Manhattan Ave Adam Clayton Powell Blvd & W 118 St Bedford Ave & Montgomery St 31 St & 23 Ave Franklin Ave & Empire Blvd Franklin Ave & Myrtle Ave 31 St & Thomson Ave Congress St & Clinton St Baltic St & 5 Ave 3 Ave & Carroll St E 15 St & 3 Ave S Portland Ave & Hanson Pl N 12 St & Bedford Ave Carroll St & 5 Ave 3 St & 3 Ave 1 Pl & Clinton St E 106 St & Lexington Ave W 18 St & 9 Ave Wyckoff Av & Jefferson St Suydam St & Knickerbocker Ave Kent Ave & S 11 St Madison St & Clinton St Degraw St & Smith St Mt Morris Park W & W 120 St Carroll St & Washington Ave 36 Ave & 31 St Johnson St & Gold St Franklin St & Dupont St 7 St & 5 Ave Bond St & Bergen St 47 Ave & 31 St Irving Ave & DeKalb Ave Howard St & Centre St Cadman Plaza E & Red Cross Pl Bank St & Hudson St Broadway & Berry St East End Ave & E 86 St W 37 St & 10 Ave Wythe Ave & Metropolitan Ave W 74 St & Columbus Ave 6 Ave & 9 St Ditmars Blvd & 19 St Jay St & York St Douglass St & 4 Ave Underhill Ave & Pacific St Maiden Ln & Pearl St E 23 St & 1 Ave Albany Ave & Fulton St 46 Ave & 5 St Pike St & Monroe St Center Blvd & 48 Ave Lafayette Ave & Classon Ave Jackson Ave & 46 Rd 3 Ave & E 100 St 5 Ave & E 126 St Vernon Blvd & 30 Rd Lafayette Ave & St James Pl W 54 St & 9 Ave Kane St & Clinton St Classon Ave & St Marks Ave Frederick Douglass Blvd & W 129 St 28 Ave & 35 St 4 Ave & E 12 St Mott St & Prince St E 118 St & Park Ave Bergen St & Vanderbilt Ave Underhill Ave & Lincoln Pl 9 Ave & W 28 St St James Pl & Oliver St Fulton St & Clermont Ave E 123 St & Lexington Ave Washington Pl & Broadway Driggs Ave & Lorimer St Cedar St & Myrtle Ave St James Pl & Pearl St Harrison St & Hudson St Vernon Blvd & 41 Rd 28 St & 41 Ave 31 Ave & Steinway St Willoughby Ave & Onderdonk Ave Berry St & N 8 St 3 St & 7 Ave Park Pl & Vanderbilt Ave Broadway & Whipple St N 11 St & Kent Ave Hancock St & Bedford Ave Union St & 4 Ave Clinton St & Grand St 1 Ave & E 30 St Meserole Ave & Manhattan Ave N 6 St & Bedford Ave Carroll St & Columbia St Lincoln Pl & Classon Ave E 76 St & Park Ave Lorimer St & Broadway Graham Ave & Grand St Lexington Ave & E 111 St W 53 St & 10 Ave Forsyth St & Canal St Carlton Ave & Dean St E 58 St & 1 Ave (NE Corner) W 13 St & 5 Ave South St & Gouverneur Ln West Drive & Prospect Park West Broadway & Kosciuszko St Columbia St & Rivington St W 56 St & 10 Ave E 55 St & 2 Ave 6 Ave & 12 St 28 St & 36 Ave Franklin Ave & St Marks Ave Bushwick Ave & Dekalb Ave Berkeley Pl & 7 Ave E 82 St & East End Ave Lexington Ave & E 120 St Bushwick Ave & Linden St E 118 St & Madison Ave Broadway & Furman Ave Somers St & Broadway Amsterdam Ave & W 119 St Putnam Ave & Knickerbocker Ave Front St & Washington St Schermerhorn St & Bond St 5 Ave & 3 St Madison Ave & E 120 St Canal St & Rutgers St Metropolitan Ave & Meeker Ave 4 Ave & 9 St Morgan Ave & Lombardy St MacDougal St & Prince St Greene Av & Myrtle Av Avenue D & E 8 St Harborside North Moore St & Greenwich St Cadman Plaza E & Johnson St E 25 St & 1 Ave E 97 St & 3 Ave Central Ave & Covert St W 50 St & 9 Ave West St & Chambers St Columbus Dr at Exchange Pl Avenue D & E 12 St W 129 St & Convent Ave St Johns Pl & Washington Ave McKibbin St & Bogart St Beaver St & Fayette St Graham Ave & Conselyea St Bushwick Ave & Furman Ave Grand Army Plaza & Plaza St West E 2 St & 2 Ave Lenox Ave & W 117 St Willoughby St & Ashland Pl Barrow St & Hudson St Norfolk St & Broome St E 7 St & Avenue A E 115 St & Madison Ave 2 Ave & E 99 St E 116 St & 2 Ave Brooklyn Bridge Park - Pier 2 Allen St & Stanton St W 20 St & 7 Ave 48 Ave & 5 St E 84 St & 1 Ave Willoughby St & Fleet St Union Ave & Wallabout St W 67 St & Broadway Lenox Ave & W 115 St E 118 St & 3 Ave Central Park West & W 85 St Lafayette Ave & Fort Greene Pl 11 Ave & W 27 St E 47 St & 1 Ave Vernon Blvd & 47 Rd E 6 St & Avenue D Bond St & Fulton St Driggs Ave & N 9 St 5 Ave & E 73 St Grand St & Havemeyer St W 63 St & Broadway West End Ave & W 94 St Bank St & Washington St Fulton St & Irving Pl Water - Whitehall Plaza Metropolitan Ave & Bedford Ave W 70 St & Amsterdam Ave Adam Clayton Powell Blvd & W 123 St 9 Ave & W 45 St St Nicholas Ave & Manhattan Ave Duffield St & Willoughby St 8 Ave & W 52 St Atlantic Ave & Furman St Dean St & Hoyt St Grove St & Broadway 35 Ave & 37 St Delancey St & Eldridge St Cumberland St & Lafayette Ave E 20 St & Park Ave Carroll St & Smith St Willoughby Ave & Hall St Queens Plaza North & Crescent St E 41 St & Madison Ave E 95 St & 3 Ave 21 St & Queens Plaza North E 68 St & 3 Ave 31 St & Astoria Blvd Fulton St & Waverly Ave Banker St & Meserole Ave Spruce St & Nassau St 3 St & Prospect Park West Eastern Pkwy & Washington Ave E 77 St & 3 Ave West End Ave & W 107 St W 95 St & Broadway E 45 St & 3 Ave Bushwick Ave & Powers St Hoboken Ave at Monmouth St Suydam St & Broadway Wilson Ave & Moffat St W 90 St & Amsterdam Ave Milton St & Franklin St 39 St & 2 Ave E 58 St & 3 Ave Frederick Douglass Blvd & W 115 St Cleveland Pl & Spring St Broadway & Battery Pl W 42 St & Dyer Ave Bergen St & Flatbush Ave E 53 St & Lexington Ave Adam Clayton Powell Blvd & W 126 St Stagg St & Union Ave MacDougal St & Washington Sq 2 Ave & E 104 St E 102 St & Park Ave W 13 St & 7 Ave 34 Ave & 38 St Clinton Ave & Myrtle Ave Lexington Ave & E 127 St Franklin St & W Broadway Plaza St West & Flatbush Ave Division Ave & Marcy Ave Broad St & Bridge St E 60 St & York Ave Broadway & W 122 St Murray St & Greenwich St Fulton St & Broadway Dean St & 4 Ave E 9 St & Avenue C Lenox Ave & W 126 St St. Nicholas Ave & W 126 St 44 Dr & Jackson Ave E 12 St & 3 Ave E 53 St & Madison Ave Madison Ave & E 82 St Hicks St & Montague St W 45 St & 6 Ave W Broadway & W Houston St Sip Ave 31 St & Newtown Ave Stanton St & Chrystie St 31 St & Broadway E 20 St & FDR Drive Huron St & Franklin St E 103 St & Lexington Ave Bergen St & Smith St LaGuardia Pl & W 3 St E 19 St & 3 Ave W 26 St & 10 Ave Jay St & Tech Pl 3 Ave & Schermerhorn St W 25 St & 6 Ave E 27 St & 1 Ave 3 Ave & E 72 St Morningside Ave & W 123 St Stanton St & Norfolk St E 89 St & York Ave W 43 St & 10 Ave E 59 St & Madison Ave Greenwich St & W Houston St 31 St & Hoyt Ave N E 51 St & 1 Ave Broadway & Hancock St Catherine St & Monroe St W 84 St & Columbus Ave 31 St & Northern Blvd Morningside Dr & Amsterdam Ave 9 St & 44 Rd W 106 St & Amsterdam Ave Madison Ave & E 99 St Lenox Ave & W 111 St State St & Smith St Scholes St & Manhattan Ave Sullivan St & Washington Sq Broadway & W 60 St Henry St & Grand St Central Park North & Adam Clayton Powell Blvd Park Ave & E 124 St Park Pl & Church St Cherry St 11 Ave & W 41 St E 16 St & Irving Pl Frederick Douglass Blvd & W 112 St Wall St & South St Cliff St & Fulton St W 42 St & 6 Ave E 72 St & York Ave Perry St & Greenwich Ave Henry St & Middagh St E 5 St & Avenue C E 81 St & 2 Ave 1 Ave & E 94 St W 30 St & 10 Ave 5 Ave & E 88 St Frost St & Meeker Ave E 91 St & Park Ave E 88 St & Park Ave W 47 St & 10 Ave Lispenard St & Broadway South St & Whitehall St 2 Ave & E 31 St Riverside Dr & W 78 St Schermerhorn St & Court St E 11 St & 2 Ave E 4 St & 2 Ave E 88 St & 1 Ave Columbus Ave & W 95 St Hanson Pl & Ashland Pl West End Ave & W 78 St E 39 St & 2 Ave Bedford Ave & Nassau Ave Riverside Dr & W 91 St Frederick Douglass Blvd & W 117 St Amsterdam Ave & W 125 St Lawrence St & Willoughby St E 74 St & 1 Ave Greenwich Ave & Charles St Union Ave & N 12 St 2 Ave & E 96 St 12 Ave & W 125 St Riverside Dr & W 82 St Riverside Blvd & W 67 St Carmine St & 6 Ave Broadway & W 41 St Riverside Dr & W 104 St W 15 St & 10 Ave Centre St & Chambers St Amsterdam Ave & W 82 St Old Fulton St Vesey Pl & River Terrace E 65 St & 2 Ave Gansevoort St & Hudson St Central Park West & W 76 St Montague St & Clinton St E 91 St & 2 Ave W 100 St & Broadway Forsyth St & Broome St W 100 St & Manhattan Ave 5 Ave & E 103 St Front St & Maiden Ln Grand St & Greene St Broadway & E 22 St E 89 St & 3 Ave E 43 St & 2 Ave W 113 St & Broadway 7 Ave & Central Park South Hudson St & Reade St Reade St & Broadway E 85 St & 3 Ave E 48 St & 5 Ave William St & Pine St Leonard St & Church St E 67 St & Park Ave W 120 St & Claremont Ave Calyer St & Jewel St W 52 St & 6 Ave W 37 St & 5 Ave E 33 St & 5 Ave Lafayette St & Jersey St Broadway & Moylan Pl 1 Ave & E 62 St Riverside Dr & W 72 St E 12 St & Ave C W 42 St & 8 Ave W 35 St & Dyer Ave 2 Ave & E 72 St E 11 St & 1 Ave E 51 St & 2 Ave Broadway & W 29 St W 52 St & 5 Ave Murray St & West St E 68 St & Madison Ave Central Park West & W 102 St E 75 St & 3 Ave E 97 St & Madison Ave Grove St PATH 3 Ave & E 71 St W 31 St & 7 Ave Allen St & Rivington St McGuinness Blvd & Eagle St E 93 St & 2 Ave Montrose Ave & Bushwick Ave W 4 St & 7 Ave S Eastern Pkwy & Franklin Ave University Pl & E 8 St Humboldt St & Varet St Pearl St & Hanover Square 2 Ave & 36 St Central Park West & W 68 St W 64 St & Thelonious Monk Circle E 72 St & Park Ave John St & William St Allen St & Hester St S 5 Pl & S 5 St W 87 St & Amsterdam Ave Greenwich Ave & 8 Ave Fulton St & Adams St E 81 St & York Ave Bayard St & Baxter St W 116 St & Broadway W 45 St & 8 Ave Bayard St & Leonard St W 116 St & Amsterdam Ave 5 Ave & E 93 St Centre St & Worth St Fulton St & William St Liberty St & Broadway Vernon Blvd & 50 Ave Suffolk St & Stanton St E 25 St & 2 Ave E 30 St & Park Ave S Mercer St & Bleecker St Grand St & Elizabeth St E 39 St & 3 Ave E 84 St & Park Ave Pearl St & Peck Slip W 110 St & Amsterdam Ave W 82 St & Central Park West Carlton Ave & Flushing Ave E 2 St & Avenue A Broadway & W 38 St Lexington Ave & E 29 St W 44 St & 5 Ave Avenue C & E 18 St W 47 St & 6 Ave E 58 St & Madison Ave E 81 St & Park Ave W 24 St & 7 Ave W 22 St & 10 Ave E 13 St & Avenue A E 31 St & 3 Ave Emerson Pl & Myrtle Ave W 18 St & 6 Ave W 169 St & Fort Washington Ave 5 Ave & E 63 St W 87 St & West End Ave 5 Ave & E 78 St E 47 St & 2 Ave E 16 St & 5 Ave Bus Slip & State St St Marks Pl & 1 Ave St Marks Pl & 2 Ave W 89 St & Columbus Ave W 104 St & Amsterdam Ave E 85 St & York Ave E 81 St & 3 Ave University Pl & E 14 St Central Park S & 6 Ave W 20 St & 11 Ave Central Park West & W 100 St West Thames St 10 Ave & W 28 St Division St & Bowery Rivington St & Chrystie St E 58 St &  1 Ave (NW Corner) W 21 St & 6 Ave India St & Manhattan Ave Christopher St & Greenwich St W 17 St & 8 Ave Washington St & Gansevoort St DeKalb Ave & Hudson Ave Central Park West & W 72 St Nassau Ave & Newell St W 27 St & 7 Ave E 51 St & Lexington Ave Nassau Ave & Russell St 1 Ave & E 5 St W 15 St & 6 Ave W 38 St & 8 Ave 3 Ave & E 62 St 12 Ave & W 40 St Broadway & W 51 St E 24 St & Park Ave S 6 Ave & W 33 St E 56 St & 3 Ave W 55 St & 6 Ave 1 Ave & E 16 St Broadway & E 14 St 1 Ave & E 18 St Broadway & W 25 St E 6 St & Avenue B Kent Ave & N 7 St W 52 St & 11 Ave W 34 St & 11 Ave Amsterdam Ave & W 73 St E 32 St & Park Ave Lexington Ave & E 26 St Perry St & Bleecker St 1 Ave & E 78 St E 43 St & 5 Ave E 48 St & 3 Ave Lafayette St & E 8 St E 2 St & Avenue C W 40 St & 5 Ave E 33 St & 1 Ave 1 Ave & E 44 St E 10 St & 5 Ave Cooper Square & Astor Pl Central Park W & W 96 St W 11 St & 6 Ave W 76 St & Columbus Ave W 106 St & Central Park West W 22 St & 8 Ave Grand Army Plaza & Central Park S 8 Ave & W 33 St E 17 St & Broadway W 26 St & 8 Ave Columbus Ave & W 72 St W 49 St & 8 Ave 6 Ave & W 34 St Mercer St & Spring St 4812.02 6030.06 4990.01 5971.08 4354.07 5659.05 4963.13 5610.09 5515.02 6441.02 6266.06 6190.08 6248.06 6441.01 6847.02 6407.07 6230.04 6584.12 6708.02 6779.05 5045.05 6830.02 6602.03 6822.09 5569.06 6233.05 5500.07 5838.09 5406.02 6224.05 7409.08 6432.09 6432.08 7023.04 JC027 JC084 JC072 JC077 JC099 JC002 JC074 JC095 JC078 JC081 JC014 JC020 JC080 JC008 JC075 6996.01 4654.01 4798.10 5406.04 4789.03 3696.05 4517.03 4807.02 5106.04 5043.06 5123.07 5115.01 5146.03 4832.07 5403.04 6450.05 JC102 4560.01 4377.04 JC024 4632.10 JC051 JC082 JC063 JC065 JC076 6750.16 JC094 5362.08 JC057 4743.04 JC059 JC066 5442.09 4553.04 JC018 JC053 4362.04 JC093 4357.01 JC098 JC103 5004.02 4243.01 6737.03 6759.15 6827.11 3736.04 6966.04 3776.05 4634.02 4434.06 7132.08 5326.06 4656.03 4169.04 4202.04 6901.01 3847.04 3665.06 4812.04 4137.10 3922.02 4759.02 4419.03 4228.02 4850.04 6729.02 4623.02 4765.07 4665.02 6836.07 4994.10 4700.06 4086.06 4258.07 4124.04 7026.08 4528.01 4695.04 6538.11 4336.01 4510.04 4906.07 5066.03 6768.04 6743.06 4452.03 4781.03 7152.10 6981.16 7233.05 6879.04 6237.01 4237.01 5300.06 6664.05 7098.05 4692.01 4327.09 5259.06 5051.02 6505.09 6656.05 5473.03 5002.09 5210.01 4735.16 4278.03 5282.02 3972.08 5074.08 4707.04 5785.10 6179.07 5273.01 5018.06 5709.04 4366.01 4890.11 5860.02 4801.04 5262.09 4914.03 5034.03 4954.07 5090.06 4775.01 JC035 4086.05 5225.02 4095.03 4217.02 4107.13 4103.08 4054.02 4110.10 6937.07 4422.05 7579.01 5027.02 4422.04 4591.04 4319.07 7149.05 3771.06 6893.10 6865.03 4987.06 4392.04 3940.04 7009.02 4045.01 6605.08 6857.09 6278.04 4856.05 7178.02 4033.06 4697.01 6128.04 6137.04 5156.05 7126.01 4148.07 3834.10 5140.06 4947.04 JC023 JC032 7643.18 JC006 4474.01 JC003 JC052 4931.05 JC038 5433.04 JC096 4290.08 4399.03 4880.11 JC011 JC055 5332.10 7595.17 5542.04 JC034 4804.02 4663.02 5335.03 4128.08 7003.06 4816.05 4762.04 4707.03 7159.08 4996.08 4380.08 5093.01 4488.08 7543.15 4798.02 4732.04 4425.02 7450.05 5010.02 4659.02 4724.03 4143.03 6076.01 4824.03 4546.04 4927.04 4413.08 4077.04 4161.01 4461.04 5198.04 4019.06 3981.10 5099.02 4519.04 4134.06 4330.09 6313.10 4531.05 5794.03 6438.04 7619.05 6732.01 6319.01 7186.15 6798.01 6958.06 7735.23 4368.05 5696.03 3874.01 6462.05 4979.07 5436.09 5578.02 4476.03 6395.01 4829.01 4620.02 4729.01 3762.08 6819.15 5659.11 5170.01 5636.11 5539.06 4519.02 4116.08 4837.03 4461.01 5099.03 4792.03 4768.02 7059.01 5036.06 3842.08 4605.04 5001.08 7587.14 7502.01 3996.01 4895.03 4617.01 4095.10 7504.12 4205.06 4568.01 4582.05 7596.10 4432.10 5148.03 4214.03 3731.11 4066.15 5241.02 5520.09 4546.05 3879.04 5270.05 4718.08 5323.05 4971.01 4735.03 5204.05 6795.01 4077.07 5235.05 3850.03 7528.31 7599.09 7753.13 4762.05 5267.09 7456.03 5184.07 3882.01 6679.11 4339.01 7407.13 4640.01 4222.02 7119.04 7522.02 4307.13 6670.03 5400.08 6310.06 5187.03 4816.02 4184.07 4119.04 4921.04 4266.03 4166.08 4713.01 4483.10 6688.01 3993.03 6915.02 5025.02 7057.07 7680.03 7622.12 5613.04 4285.09 5216.04 3978.13 7311.02 3722.04 7443.17 6969.08 4873.08 4721.01 5082.08 4125.07 4672.01 4151.01 5433.03 4190.06 5354.01 7540.02 6806.06 JC009 JC013 5403.05 JC022 5125.07 5550.09 JC019 4864.09 6529.02 5785.05 7670.09 3736.03 7144.01 3704.01 4715.01 6227.02 4455.07 4208.11 4143.04 5863.07 4354.05 5450.04 4060.09 4028.03 4193.14 7504.18 6190.03 5051.01 4939.07 5062.01 5190.07 4298.05 7685.14 3887.03 6572.08 4668.08 5944.01 3914.02 4404.10 6151.03 4898.02 5422.04 4821.06 5922.08 5164.04 7113.08 6611.02 5348.02 7230.10 3803.09 7291.06 4895.09 4175.14 4231.04 5065.10 5929.01 4237.02 6286.02 5159.04 6254.06 4452.01 6203.02 7414.17 7701.19 7003.03 4494.04 6920.03 4455.11 4074.03 7795.09 6951.03 5788.15 5561.04 7625.18 4157.10 4042.08 6416.08 5238.05 4386.05 7636.05 5755.01 5481.04 4751.01 5167.06 5400.05 6514.08 6462.19 6782.01 5115.05 5379.09 3905.15 4083.13 4883.03 5489.04 4255.05 4175.15 5303.06 6079.03 5666.04 5379.10 4348.07 3960.01 7128.08 4965.01 5178.06 7567.06 6890.01 5270.07 4199.12 6682.03 5947.04 4953.04 3651.04 4608.01 5365.02 6955.01 6650.07 3803.05 6614.01 4107.05 4680.05 4051.01 7049.04 7652.04 4600.09 7640.04 4244.06 4203.04 7727.07 4663.06 4936.01 4479.08 3987.06 7667.04 5303.08 5300.05 3955.05 5503.01 5687.04 4784.02 5575.12 JC104 5470.12 4677.10 6004.07 7365.08 4550.05 6854.05 5329.03 JC106 5575.08 7818.17 4001.09 5059.02 4840.06 5291.05 4317.05 4010.15 5593.02 7655.22 4587.02 5805.05 5374.01 5626.07 7599.02 7386.10 7563.06 4756.04 5484.09 6182.02 6212.04 7180.02 4628.05 4818.03 7116.04 7627.10 7611.02 7354.02 4395.04 6425.04 6498.09 6212.08 5506.14 4479.06 5411.08 7100.07 5267.08 7052.01 7524.09 5964.01 4263.12 4962.04 5308.04 7207.08 7704.04 6717.06 7723.01 4596.05 6816.07 4614.04 4446.05 4526.01 6563.12 5414.07 4428.02 6055.08 4225.14 4611.03 6429.01 6474.12 7365.13 6471.02 6896.16 6989.07 4345.11 5633.04 5137.10 3865.05 3928.08 7092.06 7650.05 7541.01 6464.08 5250.05 JC105 4689.03 4507.07 7432.04 5752.07 3501.01 6762.02 7658.13 5492.05 4962.01 6644.07 4281.08 6617.09 7738.04 5117.05 5797.01 7436.11 7488.24 6030.04 6638.01 4651.02 7662.13 5430.08 4010.13 5084.03 4962.08 6682.08 7783.18 5288.12 5175.08 4322.02 5616.01 7720.03 7756.10 6352.01 5788.12 6659.03 7188.13 4645.09 6593.13 5644.05 JC056 6923.20 5523.02 6789.04 5886.02 5869.04 7463.09 4446.01 5721.14 5938.01 6382.05 4710.06 4437.01 6215.04 6004.06 7028.04 7741.01 5445.07 7204.08 6756.01 6801.01 5730.08 7018.01 6532.06 4441.06 5128.04 7382.04 6495.17 7741.04 6361.03 7634.01 7443.01 7602.05 4565.06 5108.01 5721.01 6948.11 5294.04 7617.07 7682.01 5288.08 5181.04 6726.01 5938.11 7631.23 4953.01 5065.14 6517.08 6889.12 5955.12 4861.05 5545.04 7121.05 7286.05 6459.07 7323.10 5371.07 7344.05 7293.10 6824.07 5391.06 4846.01 6197.02 7340.06 4565.04 5746.04 5593.04 7235.13 7520.07 4395.07 7340.07 6345.01 5550.05 7524.16 7688.12 7800.03 4596.09 6953.08 5914.08 5411.07 7338.02 7886.02 7388.10 7183.03 5763.03 6560.01 7623.13 6115.09 5207.01 7360.10 4903.08 5297.02 6860.12 6072.14 7253.04 4677.06 7286.01 7580.01 5453.05 7538.14 7511.19 5024.08 5500.02 6098.07 7265.10 6422.08 7713.01 6912.01 5359.10 5247.10 7212.05 6626.01 5065.12 5359.11 6932.14 7745.07 5743.02 6740.01 6398.06 6322.01 5561.06 7823.03 6753.08 7288.04 5616.08 6602.05 6569.08 6925.09 5746.14 6575.03 6289.06 6700.01 5329.06 6932.15 7577.24 6991.12 7393.09 JC005 6960.10 6331.01 5414.06 5977.01 7286.02 5068.02 5880.02 3919.07 5755.14 4956.02 4993.02 3460.01 7079.06 7123.04 6998.08 5065.04 5342.10 5125.03 7458.03 6072.06 4637.06 7084.12 5351.03 7713.11 6676.02 5442.05 7692.11 7372.10 5279.03 5137.11 5105.01 6170.02 5445.02 6046.02 6206.08 5679.05 5382.06 6389.03 7243.04 5096.11 7646.04 7304.08 4732.08 5553.10 6441.05 6164.09 6551.02 5769.04 6667.04 6839.04 7188.10 6257.03 6306.06 5779.09 6239.08 4683.02 6064.08 8282.13 6904.06 7484.05 7161.08 6498.10 6022.04 4889.06 5626.13 5669.10 7432.09 7610.13 7146.04 7154.07 5905.14 6876.04 6306.07 7538.12 5114.06 6459.04 5270.08 5453.01 6723.10 6140.05 5826.02 5847.01 6148.02 6039.06 4513.06 7141.07 5623.03 6247.06 6659.01 5581.01 5626.14 5989.02 6526.03 6762.04 6765.01 6779.04 6131.10 6364.07 6691.11 6809.09 5779.08 5905.12 5854.09 6173.08 5584.04 5489.03 6926.01 6578.01 7260.09 6280.12 6089.08 5922.07 7020.09 6551.03 6541.03 5788.13 5476.03 6474.02 6197.08 6379.03 5872.08 5712.03 7499.05 5914.03 7281.09 7606.01 6224.03 6839.10 6450.12 5980.07 6297.02 7175.05 6747.06 6364.10 5532.01 Æç#eYD@›‚Ê2£^D@ ãa©GZD@.ş×51^D@ú–œ‡WD@K“´]D@ 7©0ZD@@À”"¶\D@PçH6p\D@¢øk‘8`D@Î`tl_D@ÀâxW _D@Äº§a_D@O¿— `D@Sát7ôaD@ıZM`D@êu‘B_D@ÚbL4§`D@Û´Å^aD@ÅÁk¸aD@ğQ·ÌyZD@şÒ¢>ÉaD@¾åÑ`D@X)±ëaD@ò–âË\D@^àM&_D@òDïØx\D@ÅêMº]D@LGŒà÷[D@-¸z)_D@D•P°µdD@jßÜ_=`D@Â¥cÎ3`D@I„+ bD@êFÖ\D@¸šSp[D@›‹>Š0[D@×Plp\D@N^ô\D@_ËĞi[D@"!–\D@0šåm\D@®B]ÈR[D@é«Íóí\D@É¨)ó[D@ËzÖÚ \D@şŠOúy_D@¦u‚G]D@,¯Cã\D@æ ›bD@…”ŸTûXD@ï8EGrYD@Kü¼\D@'&˜ÿJYD@ Ü[6ßTD@1ëÅPNXD@{Úá¯YD@ßˆîY×ZD@í™%jZD@I€šZ¶ZD@t{Ic´ZD@4hèŸàZD@(I×L¾YD@Ğ,d	Æ[D@6(?.`D@¿u/ñŠ[D@ª+ŸåyXD@×Ø%ªWD@x
+h_D@Ô·Ìé²XD@Yî[D@C?_\D@,šÎN[D@!sePm^D@C8c`^\D@ÊoÑÉRaD@üh ]D@Ö­“Ş[D@&ÍÕE_D@á].â;YD@n³‘ìÕ_D@û°Ş¨]D@Ó0|D\D@²”ò{XD@Icä3^D@¸C#Ü¿\D@âzogºWD@0˜ä\D@r¿CQ WD@ÇH«µ\D@5æè]D@K0ÅêIZD@‡“êñ1WD@íøŠÉvaD@áÑÆkaD@&N“¾µaD@tÖÖUD@Ãdª`TbD@¸ãâMUD@Qúß¾XD@cµùÕWD@§èH.cD@æ—’á[D@y°EÁXD@óÉŠáêVD@Ÿ*•¦÷VD@RI€&bD@¿UD@á®ŒÓTD@Ğ%z‹YD@AÖS«¯VD@zoVD@ÚUHùIYD@d7Ø@ßWD@Ru÷VD@úT€µ‹YD@23}ÀMaD@bX9´XD@~Wÿ[YD@­ûèPİXD@qÜsªÆaD@õî ZD@^…1uYD@í³o“VD@=Î{vKWD@ïL}èWD@^ò?ù»bD@¡î'gXD@”ÁQòêXD@±§şš`D@m0ïŸWD@>h,PAXD@ÓBÎûYD@üŠ}ZD@Zš¡aD@}BÑ—9aD@T¥óèWD@ä«‘MYD@RcBÌ%cD@yK(3”bD@$%=­cD@¨×Ï­ÍaD@Ö–jG3_D@ôD!:WD@nıOY¨[D@«x#ó`D@’–ÊÛcD@ph¡ÏYD@«ç¤÷WD@jf~ O[D@Q OäIZD@‹jQ`D@¶Òú`D@N¹Â»\\D@¼?Ş«VZD@WCâK[D@·bÙ=YD@Ã›5x_WD@5Cª(^[D@g¯ˆ«VD@»íBsZD@`¾'œşXD@vÃ¶E™]D@¯Û¥&_D@,‚ÿ­d[D@uv28JZD@Å1w-]D@O@aÃWD@Kº ¾YD@=Iºfò]D@kJ²GYD@²öw¶G[D@(,ñ€²YD@g,šÎNZD@CâKZD@ßlsczZD@ÓMbXYD@øæq÷[D@u¾é§VD@¥Ú§ã1[D@ÂÖ,³VD@ñæº:WD@ ş@V»VD@6wô¿\VD@Ş‹Ô qVD@ÂeĞ¿VD@98")3bD@Qy…OXD@ §»fD@ÒâŒaNZD@ß­‡ŠÌWD@\ AñcXD@2(‰ÛWWD@Âä¡J(cD@ş_uäHUD@—’@ŞbD@Ò Ş	bD@›âqQ-ZD@ø_³WD@áµ\!VD@“ë\½bD@<1ëÅPVD@Ù å/ã`D@' ‰°áaD@9´Èv¾_D@™ğKı¼YD@a¦í_YcD@€LÆŒKVD@UCYD@P6å
+_D@Œtõ_D@Pß2§ËZD@E>‘'cD@,Ğ“×ïVD@GF½–UD@¦C§çİZD@¸Î¿]öYD@ÈĞ±\D@é>¥ïZ\D@›r…w¹fD@Ø/3ÇM\D@ W²c#XD@^c—¨Ş[D@Ùü	[D@Õ!7ÃZD@^7[/<[D@ùÚ3K\D@ô¾ñµ[D@8Ï€zWD@d*ãßWD@­ÀÕYD@ZÒV“·[D@pñLğ×\D@™a®Y²[D@ÆÌôfD@j¼t“\D@óï0v^D@„O¯”YD@0*©ĞXD@N*ØN­[D@ÇSÁVD@Ïƒ»³vbD@h"lxzYD@şHVYD@“ì¦ÎYD@ÏfÕçjcD@Í‚AZD@óqï¥WD@^A¢"±ZD@…|Ğ³YXD@jÚÅ4ÓeD@ÄZ|
+€YD@Â	–4YD@mUÙWD@›Û)ÂeD@ÄÌ>QZD@.2Ç½XD@”¯üàYD@¨iä®ìVD@tõI]â^D@"û Ë‚YD@Ø´KXD@¶ø ãYD@öBÛWD@< ¿m\VD@fˆc]ÜVD@Q¢>XD@Jê%BúZD@ŸÍ‰HVD@YÅA°9VD@ùƒçZD@#_±iXD@ù_SŒ˜VD@¾-ığ˜WD@«†ä€°_D@å¸2,oXD@¾Uë¬]D@ªê}>`D@v`Jn^fD@ B\9{aD@„ l‚ _D@ué¦ƒcD@ øñá£aD@2YÜdbD@eÇF ^gD@9ÅôÎ²WD@}r"¼%]D@@hÒUD@ïsKğu`D@¾0™*ZD@<*aD\D@­Ù­\D@	1—TXD@Eß6`D@¥;¦YD@ğÉıí¶XD@É¹b1YD@‰«LFUD@âç¿¯aD@ÙßŒ]D@½qR˜÷ZD@¤ë™]D@–Ez´e\D@
+•QXD@E²ìî¦VD@K«!qYD@ˆ¿XD@oJy­„ZD@Ä²™YD@ş¶'HlYD@BazgÀbD@Ç<Ÿ¿XZD@<[Q”•UD@hgf XD@d*"TZD@HŒ[èeD@¯”eˆceD@¸^ÀÚVD@”Ûö=êYD@ğ€ºšŸXD@)Õ£±VD@Pà¾ŠeD@Š
+îjæVD@j¼t“XD@øßJvlXD@CÅ8fD@¹ğXD@RÁ<[íZD@È´¬v*WD@ÃbÔµöTD@Ì:“VD@îÎÚm[D@­ÀÕ­\D@Ğ9‰RŒXD@°Øp¢§UD@%ha‰f[D@D“»tYD@9æ¯[D@Şs`9ZD@Z!«[YD@!¨õ>[D@Æ®‹·aD@Øı”VD@ØUÔ¢6[D@©1!æ’UD@«…H<eD@0™ò!fD@mï	ÈgD@‰šoVYD@c@öz[D@÷â0=eD@[AÓ[D@õ€yÈ”UD@{ëaD@§»­WD@v2=¼dD@)èö’ÆXD@ænäuWD@	ŠcîbD@šİIújeD@x fWD@ „>ı`D@ØŒ¡Ö[D@+‡ÙÎ_D@”p[D@¯ëì†YD@B˜Û½ÜVD@ÄaÔVD@ä"O(ÍYD@>®²[pWD@›ÕñNôVD@š”‚n/YD@ :Ì—XD@Ê‘)z;aD@c—¨ŞVD@•¿Ö  bD@®Ø_vOZD@áº½ÿêbD@O›sğfD@ê(bl|fD@~5æ\D@YSşsWD@ëÛQµ@[D@Ö<ÏéUD@=¡2Y7dD@uå‡#UD@ŸqádD@"]‹NbD@RD†U¼YD@éeË-YD@IFÎÂZD@ùä¼VD@"T©ÙYD@{ AoàVD@é³Ç
+\D@°¶-ÊVD@ˆ¹¤j»[D@z€8Y´eD@ìê¯aD@õUWİ!]D@[}w[D@€Ë\D@MtLÌi^D@#§¦¥ÈZD@ã¢­ª\D@­Hñ–]D@§t°şÏYD@®¢šíe`D@ÚÉà(y]D@¸èd©õfD@§“lu9UD@~+#?,cD@°U‚ÅáTD@ª$İâæXD@)Bf>R_D@ãìdXD@=´]üVD@'ÁÒ¨VD@ÖmPû]D@)¼™»WD@{¡C\D@j?·kVD@GÿËµhVD@ñ4ôª)WD@Ã›5x_eD@œ2,_D@ğùa„ZD@õ.ŞÛYD@5
+”ZD@H	p9[D@è8ÃiWD@á^™·êfD@Ök—UD@Û¼hÕ`D@Eñl‡íXD@‘Ğ–s)^D@œ;°ÒUD@Blúı¬WD@Év¾Ÿ_D@s×òYD@•C¥\D@¿’õå–YD@ú#”F^D@Íñ#áïZD@õG½L9cD@‹íbØ`D@ºöôÂ[D@ÂŸ†¨cD@ŒI/…UD@Çº¸dD@ÔÃC”ÇYD@İn“›òVD@p»+WD@)®lZD@$¸‘²E^D@ã7…•
+WD@¤ü¤Ú§_D@:™ò [D@}#ºg]_D@ÓL1XD@‹‚¦Fd_D@ÿ­	ÔdD@WCâKgD@¤ˆ«bD@JE!XD@2Î|ZbD@@'Î›ÔWD@Yh3˜VD@j¨¬hD@|a2U0bD@šA|`Ç]D@&‘\D@.XªxfD@ÑÀÙ÷VD@ÍøFVD@3Ù4]ë_D@_Ô‹-F[D@÷ôèx’WD@•ÌûIÆfD@•SĞ'Q]D@ë›¨c\D@;ãûâRYD@êz?Á[D@0{]¯ş[D@õıÏ«`D@$aßN"`D@à±éRmaD@´Yõ¹ÚZD@´Ø€\D@À¢"ÏUD@šVD@Ë.ĞYD@aûTIz\D@¡ %4QWD@‚5sí°VD@5]²˜[D@¼ú¡ç^D@¤&]D@EütÕ[D@ÖÈ	nWD@7ô`œ	VD@lí}ª
+cD@+ı!‰ ZD@Á¨S[D@İ+NĞeD@M³'#bD@%<¡×Ÿ[D@&vÈ(*WD@¹‰Ëj$aD@Ü€Ï#^D@RÈZD@Ãr}¹TD@iR
+º½XD@.AÁÓ[D@¶‚¦%VbD@h’7DaD@ÎXéIUD@™~‰xë`D@áÉ­VD@pUjöXD@Ï ,6kVD@ÿøşßbD@Óˆô6‘fD@ÿ>ãÂXD@S—ç—fD@%éšÉ7WD@4¢´7øVD@šNgD@i oYD@!°î/íYD@e¤ğXD@ö^|ÑVD@_)ËÇfD@˜€ã[m[D@k8¸¶h[D@débÓUD@¿šs\D@÷÷„²]D@­jYD@G¬Å§\D@Ô‹p\D@Ç<V[/\D@T÷( YD@K‘|^D@pb£™dD@Üº›§:XD@ÔsOÌ½aD@¯Ì¾ŸØ[D@ä½jeÂ[D@œD17ç\D@Er²>hD@E.“<VD@ÒYùeZD@YiR
+ºYD@N{JÎ‰[D@Ş°mQfWD@ áèÏ#VD@n¾Í\D@0·,ºfD@q>?ŒXD@%&$©]D@ÆeÎ[D@k/µô\D@×h9ĞCfD@p™.¤dD@Aï! fD@–Ğ]gYD@ætYLl\D@nLÓ_D@Ì%ÓKG_D@.u-­HcD@ÙÓ«T’XD@Ö)E£YD@j%¿0cD@š …fD@¤úÎ/JfD@ïÅíqdD@™aHóìWD@0,¾-`D@ºŸ×ÈC`D@ ‰MY_D@•–³s\D@F“¯‡EXD@­„üì[D@ìÉ‘ìbD@EæE?[D@`dúÅbD@°N:6§eD@)ö†±;^D@¬9@0GWD@KÄ .íYD@€ˆ[D@Q}Îz„cD@rVŸggD@+ıMaD@vàœ¥gD@(©À‡šXD@»áë)ÁaD@ÆˆXD@²ÃNgİWD@?o*RaXD@G‚_Ù»`D@1&ı½\D@K·XD@ú	ˆÅ^D@ &áBWD@z° (’XD@_\O$`D@ º°óF`D@LCCµwdD@/™×Ïj`D@:lvC1bD@²Nğ¨ŒbD@>q>]tWD@…w¹ˆï\D@ë•=[D@´pY…UD@Îğ°šøUD@­/TöbD@ºFpÈ«fD@4DºDšeD@¦a[³S`D@·ın2[D@ˆåæN^D@E*Œ-YD@ª}:3XD@¶Sê™$eD@/iŒÖQ]D@V˜Ê#äSD@ì¬gaD@g±¹åfD@R|ßl1ZD@1#j&aD@ ÜZ2)WD@Fx WaD@}&‹gD@H½ ¹ZD@Ä{Óº]D@u”ƒÙeD@wWŠ.eD@Ì‘¹p^D@hur†â`D@ÏKÅÆ¼XD@¹Ä‘"gD@94ú\D@¿OgVD@/°¿ÓZD@ßUICZD@•k*aD@ÌÁ"uñgD@¨LA€[D@¦ï5[D@Ñê¢pWD@L
+ÈÓ\D@>[{gD@ƒµ{İgD@q9Á«£_D@»@Í¹]D@54>aD@Ï~IÏ™cD@t¢øùXD@_ÓŞ`D@VDMôù\D@c>	]D@Ö	?bD@Hh²t\D@”¢•{aD@h­Ë×]D@/‹‰ÍÇ]D@V.¯·(eD@r›º<çWD@«{dsU]D@
+>öH=^D@Ì.WÀö_D@ÌÑã÷XD@Ê¸êWD@_fã9_D@j>"¦^D@f§zbD@Ház®gD@VØpA\D@ØÉ*¶“cD@	ƒ¶ÅJaD@kÜÕŠºaD@ébÓJ]D@Œ"µbD@1´|U•`D@ë9é}ãWD@‹Æ˜Ã[D@\µ„ßzdD@ç6ŸB=`D@Û#Ãk·gD@GßÛô_D@ùÊÍfD@•0¬ÛeD@Â€Ê>fD@6„øú9XD@Ò\Í¶ZD@²&I€]D@Ñ¦4¬sbD@Ã¸Dk[D@oÖà}UfD@‘(´¬ûfD@aÂÉN[D@’x»V)[D@¡(·ŠQaD@Ä0÷ ^D@ ³³èfD@J$ÑË(ZD@û‘"2¬ZD@TŒó7¡`D@H•Õ2!bD@ÔDŸ2^D@Ä±.n£YD@ún%‹\D@4qù+cD@K¶pdD@òèFX`D@G=D£;dD@”+óXÜ[D@.ÊÇIdD@ÁDdD@„Ll aD@Ùª\D@ümpÁYD@ÖfŒ¤_D@”İ«Ú^dD@U9¥sXD@;h$€]D@¥Äö\D@Ø¸ş]ŸcD@¾°ëÍ^eD@Áµ„O°WD@ˆ‚SdD@¢Z¸_D@æÒğ\D@"Ùq…eD@@Š:sgD@QølhD@Ø‘OŸXD@Œ=Å»mbD@cc^G^D@Îüj\D@‘ SëXdD@½¬‰¾hD@¨VAÃdD@Gİ«Y…cD@Ø@ÂI}]D@!™HH¨`D@Çî§k’fD@ßˆµ_D@Ü¾äÒ:[D@|Øêö‚dD@ĞÍakôYD@o;1[D@ÔÓãKâaD@ë×=¦^D@Ç·Ú7µcD@úCV4ŞXD@¤ìÄĞûcD@úIfD@OÈ1\D@ö(\ÂeD@•Ê%ŸheD@¬í?•GZD@2Õª`\D@rèãÃ^D@*¤¡ëcD@Ù‰`V`D@Á:*gD@²Öü$bD@¿­&®[D@²¥?ât[D@N_ğå•cD@Hl)mí`D@˜ÍoÚ„ZD@mÇÔ]Ù[D@9òKGbD@üÚŸ0ÍgD@¨©ek]D@	WƒAsaD@Mmt`D@ì6N³_D@]AGi¾\D@Õ%>Ò;hD@ÙèAæoaD@R¼ÅúécD@ZŸrL]D@wìø`D@ä@½™`D@J%OËfbD@à)hƒa]D@éòæp­`D@ußÖ‚ƒ_D@ 2ø$EaD@ë
+l„[D@Ñ½=¾sbD@‘€ÑåÍeD@¶Ñ)]´bD@È`Å©ÖdD@bsÚe\D@ğAøebD@ÍXä_D@}õé_/\D@RI€&^D@¹Zu'dD@ïYS0•ZD@¿^'ô]D@›µÊÜUD@½DJ¼Ÿ]D@”¹ZD@È4‰04ZD@éı>{TD@ZÁÊüşbD@l—xm8cD@¢Ö¶bD@°{´ZD@Ú[gÏ§[D@‹4ñğZD@)?©öédD@ˆT.˜^D@jã )¡XD@æ‹b^ìbD@ò«ÿ”¦[D@HPüsgD@;ø‘t0aD@Ë‰fK\D@=¤sÙCgD@-›”dD@~kƒ[D@íT+ÙÒZD@pÃZÂZD@˜Üæ•_D@9¥Q»>\D@WI\®›^D@Ô=™J_D@ÙõÏk]D@šÒú[\D@6zùÛ_D@y±¬ªcD@qZğ¢¯ZD@caˆœ¾fD@Õxé&1dD@wIœQYD@“|ŸÍ\D@Kzµ/b`D@ÕHi_D@5ÙXì£`D@uU ƒ]D@81$'aD@‡,‡ÕªaD@˜—ìmmcD@îŸX_D@Wå¥›_D@Ò1æ¼e]D@1`‡9_D@™Ğ¨éÈXD@0yê®^D@'XÒ@âkD@¸Y¼XbD@ßmUeD@Õô€^cD@·lßi`D@á¤¼˜^^D@¯ê¬ØYD@ß–C(]D@(fÒ<]D@[Á€oädD@–JıFfD@Q
+K?cD@Qh¼!KcD@LR™b^D@=sbQ	bD@Ë¹W•_D@P€€ù£eD@©$«ZD@œ~ÜÀ`D@­j[D@Í|ƒM\D@ºI+aD@üXSñ^D@½8¯¹¼]D@N
+-Ğ]D@BçV„ò^D@Õ"¢^D@‘óş?NXD@†€Ì5McD@êy¨Æ\D@	Tÿ ’_D@;,?6ê`D@·zNzß\D@ ¬é\D@ƒsÆKx^D@”m}ä˜`D@*Ä†®aD@&ŸGZdaD@‘ie©’aD@2i[æ×^D@‚Ş¦ß_D@W* 72aD@^ÕY-°aD@ğ7V¹]D@Â¯—^D@aóÒí]D@.ãîR_D@òº£½\D@±²5\D@g*aù5bD@=^«±Â`D@§Lú)ÌcD@¡İ|~s_D@•)æ è^D@®ŠG ^D@øXò_½bD@ÔÃİ‡`D@¥˜ØÄ–`D@ØŠøhw]D@_F–E\D@¶eÀYJ`D@Ô‚f"_D@w™¦ `D@î@kİ]D@ñf¿`]D@('ÚUHeD@sÍ^D@F6ƒİcD@®ò*fD@±9T_D@ Ô Ã×aD@W#»Ò2`D@8)/¦W^D@†<‚©_D@FÎÂvcD@Ó³j!’aD@ ã4ô_D@‹ËmÒŸ\D@éõaœÃ~RÀ8ŠÅÒôRÀ@fˆß$~RÀd+`éÙ~RÀ{£|~RÀ¨U–Ï~RÀÊlIFzRÀ  €M€RÀ’á¡½ô~RÀİ÷Æ3RÀøä›L €RÀ‹À»	<€RÀ‰õ><(RÀ¯Lº5RÀÇ)Õ×~RÀ=V:ikRÀÎ±öV(~RÀ~Î´/f~RÀ  À~RÀ;¼@ä~RÀ ‘3x}RÀ/n£¼}RÀ¹ËÙ–\RÀ şÌæR}RÀ  €,€RÀîË²o€RÀnfWÎ\€RÀÂjS€RÀ05]î~RÀnˆ© €RÀŞ!Å ‰~RÀ—Æ/¼’~RÀ›Ó–~RÀ#M¼<RÀ  €¥ê‚RÀ  €ZC„RÀ  À3w‚RÀ   „RÀ›kCƒRÀÿMŞ¶%‚RÀÿÿÿâğ‚RÀ   ¸’„RÀ  Àß„RÀ  €’9ƒRÀ   “}‚RÀ¼ÅhÂ„RÀ   VªƒRÀ½;‚RÀ  €aƒRÀßóhOn{RÀ2¬âÌyRÀvàœ¥yRÀ.ªÉ|Õ~RÀòÙÏœ”RÀßH}RÀØdzˆzRÀ ïU+zRÀ^PzRÀ©ĞDØzRÀ>–>tA{RÀ´TŞzRÀ[rPzRÀ¡¡‚‹{RÀ9[£’x|RÀ  €ê¨RÀ  @gi‚RÀ)®*û®zRÀZ/†r¢}RÀˆBEPƒRÀà- zRÀêYZ…RÀ   ¾‚RÀâé•²…RÀ™šoH„RÀ  @¬2ƒRÀbŞ>{RÀ  @BŒ„RÀçãÚP1|RÀ•45¿Ğ‚RÀXf,šzRÀ  €Ÿ–‚RÀ»Ü)‚RÀø¯=³|RÀf´ŸÖ~|RÀ   æÎƒRÀ  `š…RÀlÒé~RÀ   ûš„RÀÕxé&1zRÀî¤ÏXE‚RÀ     „RÀx{ïóÈ|RÀ;6D€RÀˆ¹¤j;|RÀŸ9ëS{RÀ?ôn{RÀšü`*G}RÀ£
+Ú?ª{RÀ  €Áy}RÀnáÔb}RÀ®Òİu|RÀûËîÉ{RÀÖ^~†{~RÀÎPÜñ&|RÀ¨n.ş¶€RÀtŸ€€RÀ‚–dÓ{RÀèÙ¬ú\}RÀ¥j»	>}RÀ8/N|µ~RÀG¬Å§ RÀq:ÉV—RÀºN#-•{RÀ‚å¥îÌ}RÀÛÕõUƒ{RÀe-ì|RÀIéãë{RÀÒ:ªš zRÀkñ) ÆyRÀ®{¬|RÀßLñ]ï{RÀÇ×YzRÀÁ'Œ˜~RÀ8¯=5€RÀ  €iRÀ  @Æ¦|RÀºKâ,{RÀ  ĞG}RÀ¤äÕ9zRÀhĞĞ?Á{RÀ (]}RÀ’u8ºJ|RÀ¶ä „{RÀ|í™%zRÀ™­r|RÀL2]ƒzRÀ ĞüŞd}RÀ Ú"aRÀøûÅlÉzRÀ™x¬¾_zRÀIeŠ9ˆzRÀ   HzRÀ   àE|RÀ«{dsÕ{RÀıõ
+î|RÀ´W}|RÀÌ”{RÀÔŒ¹)~RÀ4.É|RÀÿÿÿ¾|RÀ¡Ö4ï8{RÀ3âĞ(|RÀ:¼Ö”|RÀFë¨j‚|RÀQ÷HmzRÀ :Ì—|RÀg~5zRÀ\WÌ|RÀ®¶bÙ{RÀÂQ€RÀnQfƒLzRÀwûÅÏó|RÀû"¡-ç|RÀ   3j}RÀŒ¾‚4c{RÀAH0{RÀŒó7¡}RÀ4ºƒØ™zRÀXVš”‚zRÀ÷.9î|RÀ¥hå{RÀ[ê ¯RÀni5$î{RÀCëâ6zRÀî=\rÜyRÀ“ 5µl{RÀÊÃB­izRÀ€aùóƒRÀSjÄj€RÀ©öéxÌzRÀ*¹çĞ€RÀ’´v6ÿ~RÀ   ))}RÀ[¶1Ñ{€RÀXkÍû¤€RÀ©³bÑ—RÀ¨î€¡ı{RÀ‡µB¢€RÀGB¶‡˜{RÀêÊgy|RÀc¢{µ'€RÀœŠT[zRÀ(dçml|RÀ}5îjRÀí)÷JRÀhLwL{RÀµßÚ‰’{RÀVŸ«­Ø{RÀüo%;|RÀ  ğ€RÀĞÉœxzRÀCÛ9æ€RÀ/Ó@=G{RÀôÂS#{RÀÿ^eÈŒ|RÀæ?¤ß¾zRÀ7ıÙ”zRÀÓ‹57}RÀ[’Âe|RÀ¡/½ı¹|RÀ¡Ö4ï8}RÀ+j0}RÀGÅÿ{RÀ6ıÑ\}RÀ|èi]¶~RÀêçME*|RÀÖVì/»{RÀQUWô=ƒRÀ×uT§ö‚RÀ|êıë}RÀ;u@mo‚RÀÎÇµ¡bzRÀöEB[Î‚RÀv/œƒRÀˆ…ZÓ¼zRÀcÈU‚RÀÀÏ¸p |RÀà- ‚RÀNÑ‘\ş~RÀU[rzRÀ     zRÀÿÿD-ƒRÀ  ÀëS„RÀ   …¯|RÀĞJFÄ·}RÀ¿`7l[|RÀSºñw:ƒRÀy@Ù”+~RÀ<÷.9zRÀ»–±ã~RÀø„‘›€RÀíÁZkŞ{RÀß¦?û‘zRÀ\Á>S~RÀ #iÅ|RÀ_ğiN^{RÀü…G°k|RÀ—aqòRÀÑĞı¤³}RÀO;€n}RÀéíÏEC|RÀ]ÜFxyRÀŸX†¼N~RÀ†ZÓ¼ã{RÀÊíMÂ»{RÀ÷XúzRÀgÎ~Í‡~RÀ7l°ë}RÀ  @¼5RÀÿÿÿü{RÀ81$'{RÀ.³ßEe~RÀ9ñÕâ~RÀ“Ş»öšRÀejuæÜRÀ9î”ÖyRÀ‚ë£¶~RÀhŒŞÂRÀ«š{£~RÀ  @áÃ€RÀäNé`ı{RÀNSºªâ|RÀ:M;Ÿ~RÀ¸0û
+LRÀ   ¬¤~RÀô½|ÀRÀ   Óo}RÀO¬–ª|RÀÇYÙA“}RÀ!Ë‚‰?~RÀ¼ìÉ|RÀ}oxæ
+{RÀª†XXË{RÀ]Ì…€2{RÀ{¿Ñ|RÀw[5}RÀ  À¹€RÀ´U¬Ú~RÀ   y|RÀˆº@j{RÀ¿Çìn–~RÀĞ5‚C€RÀÒ­£ª|RÀì^kŠ|RÀ”v8ôµRÀUıË1~RÀÖ["|RÀ2¿Ù~RÀ†‘^ÔîzRÀ  P2°~RÀÀç‡Â{RÀ[µkBšRÀoéÁr~€RÀOÈÎÛ|RÀr3Ü€Ï}RÀàœ¥½yRÀ.‰b~RÀDQ Oä{RÀeä,ìi{RÀ{„ò>|RÀ  À³cRÀb"R‘’|RÀ_E+RÀ#ä…“RÀ…5ßRÀ¡ŒL©|RÀÃdª`T~RÀ   `YRÀnYk(RÀQËƒ²ø{RÀ  €Fñ€RÀ5tX†]|RÀâZ@|RÀS"‰^F{RÀ¶ø ãyRÀë²×{RÀ[%XzRÀ  €Ÿœ|RÀÇ‡–Í|RÀ¶ÿØVù~RÀCqÇ›ü|RÀYiR
+º{RÀçSÇ*}RÀÊè6—Q~RÀdDı‰%}RÀ£{PŒRÀ  €†”RÀ\Uö]|RÀÃcÒßzRÀ`°¶-zRÀBšZÑ}RÀÉ#—ƒÉRÀ¹ê®êRÀŠ¢´õ›}RÀ\¶Ã’RÀQÊÃ|RÀUÁ¨¤N|RÀ¨ÙM:[|RÀ   0!~RÀá´àE}RÀòì4Ê!|RÀÏ-t%RÀßêï[cRÀuÀ¿R'{RÀme²M¤RÀöC|RÀŞ<Õ!7{RÀb|Q+}RÀ}¢zRÀuq|RÀ¼Ë$nşRÀÙ“e-ªzRÀCD M«€RÀ·bÙ=|RÀ©ØÚóã|RÀqÉq§tzRÀEbRÀ
+B`€RÀ   ,)zRÀøqÑÜRÀ,A™i~RÀsczÂ{RÀÜµÛzRÀEg™E¨{RÀcFx{}RÀ’v£yzRÀ¥½ÁyRÀçË‡w+}RÀÍc.ã}RÀòAÏfÕ{RÀ`êçME|RÀ   ¾XzRÀ")·'§€RÀtŸ˜Ìc~RÀ0k½:¢~RÀ   ò|~RÀõî|RÀ  €!û}RÀ R›8¹{RÀ…™¶e{RÀb¾¼ ûzRÀ¨zKœI~RÀ´Yõ¹ÚzRÀHJşP¾RÀ   œM|RÀ)Z¹˜}RÀ'½o|í{RÀ½Q–ë{RÀ   –&|RÀ•k¬òÔ‚RÀ  Àƒ½‚RÀY)-ñz|RÀûñÍ[ƒRÀ  €üz}RÀ   =Ê|RÀ;G.I¯ƒRÀÖn»Ğ\{RÀhL7d{RÀ)–[Z}RÀ‹ıe÷ä|RÀ›h>}RÀ“MgzRÀ?øy}RÀ  €P}RÀ’³°§İ{RÀ¢îâ±RÀu}ö ~RÀB`åĞ"RÀå*¿)RÀlGŠ+[~RÀE7}RÀ³déĞ~RÀPAU7RÀÃ&ğRÀ­O9&‹|RÀ  €8<€RÀ&ı½{RÀÀ{RÀ   „ú}RÀ¥BDƒ7RÀ°$’KRÀŞ	Š|RÀÃ³©_}RÀÿÿ'~{RÀ¿Ã´ó~RÀïşx¯Z}RÀ‹jRÀüRÀàóÃá{RÀĞDØğzRÀ¬7¬¡ûRÀÄ§‰WRÀ+¥ãAe€RÀÇ”ªÆ}RÀfê
+r|RÀ‰‰¼›İRÀ¦d9	¥}RÀ¹J=,~RÀ¯áT1ö~RÀwûìÅzRÀ  À‡&RÀîàPÑ~RÀÉçO½}RÀOÀ#èw€RÀ”²˜™~RÀEGrù|RÀm±}RÀv0ÅÉ{RÀ@i¨QH}RÀ*jYŒt}RÀH¨•¡|RÀÉ-J |RÀË†5•E|RÀÉw)uÉ{RÀo™x¬¾}RÀ>=×s)RÀ-˜âÅRÀMş‚8j}RÀb[P)À|RÀ_y5å¯zRÀS\Uö]RÀ=]ÎªRÀìú¤I|RÀ†ûmô}RÀäı·å}RÀ  €róRÀ•çRÀóøÅ¾~RÀÇº¸|RÀ;P+uRÀX'›Ó|RÀ¸ÍTˆG{RÀ´•òµ€RÀÈ‚x“€RÀzÂ·Uµ|RÀD¨R³|RÀÊ,Œ>°zRÀ†æ:´zRÀ/éŞyX}RÀ—­q~RÀB=}~RÀ¢¯Åf|RÀ  `Ùc}RÀÃÙ)-}RÀCğğ…æ~RÀü«Ç}+RÀÉìÉOl~RÀ·!­Îı|RÀ_½Ä7X}RÀªÃŸ9€RÀ}®¶b}RÀ7Èâ•}RÀµq¯|RÀç¨£ãj|RÀFÙ¶ƒl|RÀõFfRÀ'F\¡RÀRfŞ%~RÀ  €´•}RÀ}iÆ¢RÀ`[Ïm€RÀ  ÀY¯~RÀ¥k&ßl{RÀzI»~RÀ6#ƒÜERÀ]i|Ó}RÀz=óÍRÀçV«±{RÀu?Ú1}RÀÅ °rh{RÀ  à3j~RÀËD¶˜|RÀ¯ñô%|RÀ$]3ùzRÀhî|šn|RÀÊ‰vzRÀ„Ø™BçyRÀ¬bàoj}RÀnnLOXzRÀA²F^RRÀ  ÀQRÀ"†Âò~RÀyè»[Y|RÀX”†ZRÀÅO©3ó|RÀ´IğGRÀ§"Æ|RÀ/Æ¬0€RÀûzáÎzRÀan÷r~RÀRšÍã0‚RÀ   Ä¨€RÀ  €¼^RÀ¬œ€~RÀ éµ|RÀ£Xni5zRÀ  à·NRÀË—›Ø€RÀÕ>‚RÀØ³Y~RÀ  @}RÀáQtn¤}RÀ³ëŞŠÄ{RÀà„B|RÀõõ|Ír|RÀÜ)¬ÿyRÀSI2å"~RÀl]‹’gRÀ.–}²½|RÀ”í*¤~RÀzhån€RÀAäÂ»;RÀ‹†1ö~RÀip[[x|RÀÆdš~ƒ|RÀ>´ü{RÀ›’¬ÃÑRÀIG9˜MRÀ²v%ÓRÀ   -}RÀ¦À¸
+Ø|RÀa ¦Í~RÀ€ßØÒ|RÀ‹&‚şã~RÀ RÂÎ|RÀèmÇ/|RÀ95~RÀá%8õ~RÀ°ÅnŸU€RÀØJ'ñ}RÀzhÄq}RÀm~‘
+‚~RÀ  à+ê~RÀ  à"}RÀÔfêà}RÀú{.?}RÀ°K'ã~RÀë0X~RÀëéÀÅŒ€RÀ¯yUg}RÀ6¹ÎuĞ€RÀGV—t}RÀãÿmšç~RÀ%­ø†Â|RÀ‘;¹pRÀÄÍ©d }RÀ¢ışƒş~RÀĞñÑâRÀËì=¦ÿRÀÙ§±4RÀÃŸáÍ{RÀ˜ErC{RÀîêUdtRÀ§ví?~RÀip¾…3RÀGËªRÀsÂ ™È}RÀÒ¬	5|RÀÿÿ
+·~RÀşïˆ
+Õ|RÀ‡Áºù_|RÀ   q•}RÀp}³(ÇzRÀ  €àÒ}RÀì†m‹2}RÀş¾w‚Z€RÀKåP~RÀkóÿª£}RÀUS«Y}RÀÆÇx«ö}RÀş×¹i3~RÀ.ÉB~RÀ3FX9|RÀ  @tƒRÀh–¨©{RÀ½:Ç€ìyRÀ   ÑC~RÀå›mnL}RÀ  € ®€RÀW80Vç}RÀNÏ`ø-}RÀ  €íÒRÀˆ×ß€RÀ   jšRÀÿÿnq~RÀ@÷Û~RÀ  @.¨|RÀ-†@hÜ|RÀoEÉçRÀØq‘µe|RÀ¿Å7Ò|RÀŒì ÿRÀµş– üzRÀjN^d~RÀŸ!³ì{RÀ6ûÉ9m€RÀã€e¾&~RÀMXO}RÀôÎôT¿€RÀ‹¤İèc}RÀèn2…}RÀ   â·€RÀæ—Çš€RÀ¡¥#§~RÀß­n’~RÀB™¡L~|RÀárë|RÀ¬ ßm^|RÀll!JRÀã¿eV~RÀá ¥|}RÀ„‹Ë§½RÀ†Ãè~RÀ$¶»€RÀ   %„RÀ  à’ğzRÀ’ÂUtRÀk'JB{RÀÔ˜1r~RÀ(DÀ!T}RÀ‹È¤|RÀÒşj‚fRÀÅà‚èàRÀôxñRÀ>å¥V0€RÀ0,¾-RÀÂ¨ÿ³~RÀ!GJåsRÀW"Pıƒ~RÀ-I–z}RÀã/Ò0!}RÀI¹ûRÀ5ëŒï‹|RÀT6Ô§RÀİ`&~RÀDÁŒ€RÀ)LÎ?°zRÀ¸[ËÑ}RÀB>èÙ¬zRÀ)v ÌRÀ¢ÊéB~RÀÿÿÿX¾{RÀ   vE}RÀb¡Ö4ï|RÀñ}ñMÚ}RÀ   šô|RÀÅş²{ò|RÀçKVâMRÀà- x|RÀœğRÀ•’PÀ×~RÀ9Ñ®BÊ~RÀz¨mÃ(}RÀ_ +Ñ#|RÀ  `F™€RÀĞèÓ¯~RÀæ0ëíRÀ   ÷:RÀê!İA}RÀ<k·]h€RÀ_ÎQ€RÀ·Ñ ŞRÀ’Ÿdİ}RÀŸ’sb€RÀp•'vRÀÒÀ“·~RÀ   Ö}RÀ›şìGŠ|RÀ
+ƒ2&€RÀ‡P¥f}RÀ  À$¹|RÀÛ$}RÀ   o.}RÀj[ ƒRÀßè€(€RÀ‡İÚ6Ê€RÀäS)ˆ~RÀ»ïµó~RÀ  À3zRÀFR{&RÀùÊîXRÀlÀÖ[¹|RÀ²+-#õ}RÀÿÿ¿	–~RÀ"úµõÓ~RÀ—CAßL~RÀñcP–ï|RÀ  €:‡~RÀ.py¬}RÀ‘¹2¨6}RÀ‹DÓRÀõ´ËĞ}RÀÈ¨p€RÀ›sô|RÀÍU˜c|RÀzˆFw}RÀó´ôOÍ~RÀÿÿÿçIRÀ•@9#€RÀ¾QÈ!$RÀÎlz@'~RÀ  €rz€RÀª´j|K€RÀõYĞ~RÀ~…›RÀì|h´RÀ   •}RÀ  €S€RÀÓ-}àQ~RÀ  @ÙRÀ  €)Ç|RÀ™:~RÀgcãÉ‡RÀ}?5^º}RÀöó¿¿õ|RÀ Ä!]d€RÀÿÿ_'€RÀ[QÎTRÀÇ5™Lğ|RÀ-Z_(~RÀ©¿^aÁ}RÀ   ©~RÀ×¬é0•€RÀ¶ß5\€RÀ%æİ}RÀ  `…˜~RÀŒe`‘€RÀ¢a1êZ€RÀ  €¥Ñ}RÀÙ=yX¨}RÀŸvøk²|RÀ   _µ~RÀPtÜï~RÀóÏ©·RÀ!Ç¸RÀì¡}¬`}RÀè“h€}RÀ   xRÀ®+f„~RÀZ¤LlRÀ  ÀnÕRÀ  @V}RÀN<ş~RÀ3Q„Ôí}RÀÂD‹…DRÀ­Îœ»~~RÀ(H0Õ€RÀ‹9Båã}RÀ(Õ>}RÀË±HUK}RÀóS}RÀ  ÀoÂ‚RÀ¹«²J„}RÀ¬­Ø_vRÀà»Í[RÀ…”ŸTû|RÀ  `»|RÀ±Yœ+|RÀ—B&0€RÀìay¡J}RÀ  `¬RÀ-\Va3|RÀV3c¸—€RÀ   “€RÀ=±”~RÀ  ĞÖNRÀ  @¸³}RÀ¬kQv€RÀíøi{RÀ¹àş~}RÀQÚ|a~RÀ™~ğ6+€RÀ  ÀáSRÀ3	Ë|RÀrÍûRÀ¶„|Ğ³}RÀñØK*ERÀ  Àº|RÀğÿ>>|}RÀ¦bc^G}RÀÃMãj&€RÀÌ2Yk€RÀëœòª€RÀİÎB}RÀ,5s/RÀÎv´~RÀJWÙê~RÀÿÿÿ¤ÈRÀòÏ½RÀÃLx•w~RÀHƒãKK}RÀÂ‡-€RÀºk	ù }RÀ1”í*~RÀ¼Ì°Q~RÀ  ÀğRÀnˆĞŒ.RÀ  €šÛ~RÀŒ s¯º~RÀò´üÀU~RÀÔ+eâ~RÀ   Ï6~RÀş‚8j`}RÀÅŸòù²RÀZ·ƒ	J€RÀ   tÃ~RÀ„.ÀÂ²~RÀrÉŠD•}RÀ¿!ùï¦RÀıêÇK|RÀl^ÕY-~RÀ?ãÂ~RÀ   ª¶}RÀ®è½Î~RÀrböOƒRÀ‚ülä€RÀDnáRÀl²gK-RÀ–J~RÀ   Û}RÀ„yv–¬|RÀ;×Ao;}RÀŠvR~RÀXËa|~RÀB–€RÀ   £Ÿ}RÀ£˜»RÀ	÷€RÀ¸uÊRÀ—D¬´{RÀæÎL0œ}RÀŠU¤> RÀğ÷0  }RÀ‰‰›t€RÀˆnÍˆ€RÀzŞ…€RÀÛü¿êÈ~RÀ   'z~RÀ   E¤|RÀ? ©MœRÀ[V'ˆ6~RÀ
+p|RÀ–Tÿ RÀ   €ÅRÀyËrRÀk÷Æ}RÀ§r=~-€RÀÿtfï~RÀİ^üRÀ½w/RCRÀBÄÕí}RÀØÒ£©~RÀ…EâqÓ~RÀTl³NhRÀ  €<Á~RÀ   ÔNRÀK*³Ö~RÀ  €¯‹}RÀ˜‰à‡œRÀwÒg¬"€RÀÿÿÇ~RÀqú£=Ø~RÀ°XÃEî~RÀoN&O€RÀ\L}j}RÀ  @r¼~RÀˆy^C3~RÀ  €ùlRÀbQl`Æ~RÀ¨ÅàaÚ~RÀ  0,^~RÀ•‚êö~RÀĞfr½¯RÀ   ~hRÀñ¹ì¿}RÀ‹T÷LßRÀ  À×‹~RÀaºARz}RÀe"òRÀ¶X@WQ~RÀzZœRÀÊÌÜ®]RÀwã´ÒRÀ"§¯§~RÀŒC¢u9RÀ46<RÀ®Û¾÷RÀ[-73.98068914,40.69839895] [-73.99931783,40.73935542] [-73.97100056,40.70531194] [-73.98205027,40.73587678] [-73.97632328,40.68382604] [-73.98142006,40.72740794] [-73.91054,40.70461] [-74.0047303587198,40.7243083216022] [-73.98368779,40.72217444] [-73.98753523,40.75172632] [-74.00197139,40.7454973] [-74.00366443,40.74317449] [-73.98683077,40.7451677] [-73.98765428,40.75097711] [-73.98192338,40.7652654] [-73.99093085,40.75019995] [-73.97121214,40.744219] [-73.97498696,40.75510267] [-73.9845272898674,40.7606832709659] [-73.98268129,40.76344058] [-73.9544353965357,40.7068420310133] [-73.9646,40.763954] [-73.9900262,40.75640548] [-73.95818491,40.76500525] [-74.0016585588455,40.7249467235942] [-74.00681753,40.74334935] [-74.00566443,40.72243797] [-74.00026394,40.73224119] [-73.98329859,40.71850211] [-74.00004031,40.74345335] [-73.977112,40.7867947] [-73.977706,40.751873] [-73.97791,40.751581] [-73.988038,40.770513] [-74.0455716848373,40.7252891078113] [-74.0666109323502,40.7143583687043] [-74.0385255217552,40.7124188237569] [-74.071261882782,40.719282200707] [-74.05099,40.71942] [-74.0335519,40.7141454] [-74.0459525585174,40.7233315864644] [-74.0714550018311,40.722103786686] [-74.0628585219383,40.713463826692] [-74.0503889322281,40.7260117296463] [-74.0389144420624,40.7183551982321] [-74.0641943,40.7236589] [-74.0572714805603,40.7459099663156] [-74.0321082,40.7287448] [-74.0487903356552,40.725685483629] [-73.9286078,40.7703743] [-73.90311,40.69517] [-73.9007,40.6988] [-73.98178024,40.71926081] [-73.99344559,40.69760127] [-73.9538746,40.6630619] [-73.91458,40.68989] [-73.90742,40.70068] [-73.907856,40.709697] [-73.91945,40.70636] [-73.92587,40.70869] [-73.91497,40.70863] [-73.91116,40.70998] [-73.93039,40.70112] [-73.94485918,40.7169811] [-73.9946848154068,40.7505853470215] [-74.0376833081245,40.7151776773203] [-73.91693,40.69122] [-73.96304,40.68488] [-74.051788633,40.742677141] [-73.91605,40.69296] [-74.0836394,40.7182113] [-74.0428841114044,40.72165072488] [-74.0789,40.71113] [-74.066921,40.737711] [-74.0499678254128,40.7216301426384] [-73.9222427,40.760339] [-74.0710607171059,40.7275514673001] [-73.94051,40.71773] [-74.0439909,40.7443187] [-73.91566,40.69714] [-74.0404433012009,40.7487159453802] [-74.0337589,40.7272235] [-73.94844,40.72084] [-73.9452416,40.69128258] [-74.0595030784607,40.7349610200095] [-74.0784059464932,40.7246050998869] [-73.98302136,40.6853761] [-74.0719592571259,40.7257261374256] [-73.90925,40.68458] [-74.0354826,40.7242941] [-74.0625,40.73367] [-73.94976519,40.70538077] [-74.00860912,40.6812117] [-73.9411265,40.7614376] [-73.930562,40.76108] [-73.9286471,40.7633589] [-73.9574686,40.6642406] [-73.9322662,40.7682] [-73.9605563879013,40.6664393068708] [-73.95381995,40.69331716] [-73.944694,40.686203] [-73.9342,40.77485] [-73.97628939,40.71782143] [-73.939877,40.6933982] [-74.011169,40.679043] [-74.00785041,40.6794327] [-73.9347774,40.7668] [-73.9588,40.6679411] [-73.9569115,40.6627059] [-73.979827,40.699569] [-74.015665,40.677236] [-73.993612,40.671907] [-73.93098,40.69757] [-73.96563307,40.68650065] [-73.9298911,40.6794268] [-73.94708417,40.69957608] [-73.9362726,40.7601853] [-73.90824,40.693] [-73.90271,40.69812] [-73.94626915,40.69425403] [-73.9364848,40.7638753] [-73.90737,40.70413] [-73.97803415,40.69608941] [-74.00324957,40.6763744] [-73.9907902479172,40.681990442707] [-73.9476791024208,40.6803560840434] [-73.9246145,40.7713615] [-73.9574617892504,40.6906480708294] [-73.90663,40.69467] [-73.93367,40.75473] [-73.95881081,40.6845683] [-73.942061,40.6894932] [-73.92997,40.702997] [-73.90632,40.70694] [-73.9391141,40.7627442] [-73.9142678,40.7595701] [-73.95928168,40.68676793] [-73.98476437,40.69766564] [-73.918544,40.774591] [-73.9120938,40.7701477] [-73.9145645,40.7787185] [-73.9106512069702,40.7640893235069] [-73.941764831543,40.7437524099784] [-73.934903,40.6814598] [-73.952029,40.7160751] [-73.945133,40.75742] [-73.9309134,40.7739825] [-73.97129668,40.69573398] [-73.94977,40.68402] [-73.9491033554077,40.7133522622288] [-73.92535,40.70538] [-73.939991,40.752474] [-73.9391224,40.7576314] [-73.94546,40.72158] [-73.91292,40.70577] [-73.93894,40.71323] [-73.90674,40.6972] [-73.938037,40.682601] [-73.93515,40.713811] [-74.00494695,40.6725058] [-73.91092,40.70793] [-73.95238108,40.69527008] [-73.95161,40.73124] [-73.95960688591,40.7433660802702] [-73.92793,40.71401] [-73.92976,40.70539] [-73.95414,40.72795] [-73.91564,40.68565] [-73.91422,40.70113] [-73.95204,40.73396] [-73.935877,40.697481] [-73.984844,40.713126] [-73.93641,40.70076] [-73.9096,40.70553] [-73.90408,40.70408] [-73.92851,40.70686] [-73.9127,40.698] [-74.047726625,40.71848892] [-74.00647134,40.6769993] [-73.91873,40.71246] [-74.01275056,40.6773429] [-73.98432695,40.6802133] [-73.955637216568,40.6775920693738] [-74.0075572,40.6747055] [-74.0100698,40.6753274] [-73.99364123,40.6777287] [-73.9373554,40.7671863] [-74.0016256,40.68763155] [-73.9311847,40.7974772] [-73.93936,40.705517] [-74.00242364,40.6859296] [-73.91181,40.69055] [-73.944118,40.6823687] [-73.98470567,40.7746671] [-73.98895053,40.666287] [-73.9265474,40.7658346] [-73.930819,40.7659] [-73.9351,40.704508] [-73.94111,40.6851532] [-74.0087952464819,40.6726724341095] [-73.9077436,40.7713937] [-74.00194698,40.67434] [-73.9262231,40.7569332] [-73.9240312,40.7647] [-73.9460927,40.748] [-73.9179,40.70108] [-73.9153175,40.776165] [-73.9564947,40.6741806] [-73.94371094,40.69622937] [-73.948852,40.74252] [-73.9566,40.7423737] [-73.95608,40.70934] [-73.923706,40.774645] [-73.9587903,40.6791944] [-73.97988067,40.6686627] [-73.94008,40.709897] [-73.9333,40.702831] [-74.0506564,40.7241765] [-74.046304543,40.72152515] [-73.9532423,40.802535] [-74.03805095,40.7211236] [-73.91227,40.68858] [-74.043845,40.7177325] [-74.0557013,40.7112423] [-73.917775,40.703545] [-74.0364857,40.7127742] [-73.93948,40.71882] [-74.04105,40.71649] [-73.984275,40.683426] [-73.91321,40.68652] [-73.90625,40.70183] [-74.0496379137039,40.7165397809919] [-74.0676221251488,40.7253399253558] [-73.9482128620148,40.7163803197356] [-73.9643412291,40.7969347] [-73.94308,40.72325] [-74.050443636,40.734785818] [-73.97141,40.69985] [-73.90974,40.69385] [-73.98261206,40.71622644] [-74.0094613,40.6777748] [-73.9354504,40.7692475] [-73.91516,40.69905] [-73.96986848,40.69794] [-73.94954908,40.69539817] [-73.927631,40.7767] [-73.94407279,40.70510918] [-73.99917254,40.6847514] [-73.96408963,40.70853074] [-73.99203074,40.6902375] [-73.941606,40.795508] [-73.89795,40.69922] [-73.97355569,40.69580705] [-73.935775,40.686312] [-73.9333349,40.7949879] [-73.92153,40.705614] [-73.97703874,40.69327018] [-73.96751037,40.69610226] [-73.9876547455788,40.6790979972168] [-73.9372587203979,40.7412830935599] [-73.923044,40.699304] [-73.97493121,40.68981035] [-73.982578,40.70224] [-73.99383324,40.686371] [-73.99785768,40.6746957] [-73.90369,40.6786] [-73.96885458,40.68940747] [-73.99400398,40.71076228] [-73.9787282,40.6740886] [-74.0119555592537,40.673635513415] [-73.93734,40.71019] [-73.95133465,40.69072549] [-73.97846879,40.6765304] [-73.98901629,40.6843549] [-73.9788007736206,40.7475739589548] [-73.99612349,40.69089272] [-73.9599502086639,40.7318140172097] [-73.9479119,40.7519071] [-73.9621128676,40.7997568] [-73.972628,40.761573] [-73.94977234,40.74708586] [-73.9225403,40.7774552] [-73.9342862,40.7628138] [-73.9249574,40.768692] [-73.939182,40.80756] [-73.95380904,40.6851443] [-74.011295735836,40.7277140777778] [-73.98208968,40.6704836] [-73.9379560947418,40.7535992020056] [-73.92836,40.704425] [-73.97793172,40.72082834] [-74.00965965,40.72405549] [-73.947915,40.6900815] [-73.94594845,40.75052534] [-73.99548059,40.70037867] [-73.97178913,40.69308257] [-73.93756926,40.69681963] [-73.98199886,40.6662078] [-73.920827,40.763154] [-73.9795041829348,40.7274642069239] [-73.93372,40.710681] [-73.99379025,40.72743423] [-74.00771779,40.72185379] [-73.950916,40.6883337] [-73.96579,40.6769694] [-73.9022,40.69969] [-73.96968902,40.68764484] [-73.93581,40.707174] [-73.92834,40.700003] [-73.941342,40.698617] [-73.9904603362083,40.7714967105444] [-73.94644578,40.70583339] [-73.98700053,40.6686273] [-73.99337909,40.69239502] [-74.01677685,40.70569254] [-73.94782145,40.7961535] [-73.9739,40.7921] [-73.9898300170898,40.6726029815013] [-73.986842,40.702461] [-73.93705428,40.69237074] [-74.0147262811661,40.6758329439129] [-73.9432083,40.79329668] [-73.94142771,40.67890679] [-73.92617,40.692] [-73.90448,40.69081] [-73.93504,40.79747] [-73.90798,40.6882] [-73.9470595121384,40.7103685423523] [-73.9500479759,40.6809833854] [-73.98396846,40.663779] [-73.952918,40.676368] [-73.93323,40.71429] [-73.955736,40.724055] [-73.9737299,40.6917823] [-73.9554162,40.6691783] [-73.99293911,40.71406667] [-73.9934402704239,40.6953569332023] [-73.93856,40.715353] [-73.919911,40.704876] [-73.90904,40.69811] [-73.96590294,40.71285887] [-73.99667444,40.76341379] [-73.99869893,40.6763947] [-73.96264403,40.71260486] [-73.99333264,40.6685455] [-73.94945003,40.7934337] [-73.9423,40.797911] [-73.9430681,40.8107922] [-73.9707756042481,40.6979503156954] [-73.95739,40.71469] [-73.93956237,40.7892529] [-74.015756,40.711512] [-73.9904394,40.668603] [-73.9242751,40.7580583] [-73.99440329,40.6849894] [-73.94164802,40.7869946] [-73.92524,40.69356] [-73.9557689392,40.680342423] [-73.916142,40.7729] [-73.9383,40.7923272] [-73.99990419,40.6828003] [-73.9166368,40.7577284] [-74.0104554,40.71748752] [-73.941275,40.7485] [-73.95141312,40.71167351] [-73.91337,40.69943] [-73.99037292,40.6786115] [-74.00014502,40.6783563] [-73.9087629318237,40.7015734087379] [-73.99785267,40.6831164] [-73.97519523,40.6793307] [-73.92302,40.69676] [-73.91966,40.68822] [-73.9321455,40.7596276] [-73.954131,40.672695] [-73.9136695,40.7656251] [-73.90245,40.70555] [-73.95577801,40.7727966] [-73.96699104,40.804213] [-73.9349,40.8006721] [-73.94173,40.72577] [-73.9116664230824,40.6831998817276] [-74.01020234,40.71291224] [-73.97484126,40.6711978] [-73.9786517,40.7829391] [-73.9763760566711,40.6651468153379] [-73.95206,40.78813] [-73.9684528112412,40.7680088930595] [-73.93318,40.70106] [-73.92807,40.69671] [-73.92157,40.70907] [-73.97324283,40.6776147] [-73.9196,40.69543] [-73.99599099,40.6787242] [-73.9422369003296,40.7190789117956] [-73.962408,40.678045] [-73.93637,40.716657] [-73.9362541,40.7945663] [-73.9398550987244,40.7631548191037] [-74.044247311,40.727595966] [-74.0428170561791,40.7145840353589] [-73.94500379,40.71929301] [-74.0524783,40.7376037] [-73.9606314897537,40.7092482627616] [-73.9498436450958,40.7239567849954] [-74.0575736,40.7311689] [-73.92754,40.70166] [-73.9279917,40.7531106] [-73.95394,40.73026] [-73.951475,40.804372] [-73.956934,40.665816] [-73.9125551,40.7747878] [-73.9605695,40.66314] [-73.9580136537552,40.694546087246] [-73.93540375,40.74469738] [-73.99520919,40.6881529] [-73.97854971,40.6795766] [-73.9865,40.677027] [-73.986923,40.734232] [-73.97431458,40.68539567] [-73.95484712,40.72079821] [-73.9814832,40.6751622] [-73.98775226,40.6750705] [-73.99905709,40.6809591] [-73.945993,40.791976] [-74.0036755800247,40.7435337324616] [-73.923711,40.707165] [-73.923769,40.702013] [-73.9684152603149,40.7076449441757] [-73.98776323,40.71269042] [-73.99318208,40.6829151] [-73.945925,40.804038] [-73.9618148,40.6686744] [-73.9295748621225,40.7565127298496] [-73.98362464,40.69474881] [-73.95866,40.73564] [-73.98541675,40.6704922] [-73.98620772,40.6849668] [-73.93561,40.743] [-73.92095,40.7027] [-73.99973337,40.71910537] [-73.98971773,40.69991755] [-74.00618026,40.73652889] [-73.96525063,40.71044554] [-73.94446054,40.77518615] [-73.9979009,40.75660359] [-73.963198,40.716887] [-73.97754961,40.7785669] [-73.98377641,40.668127] [-73.9183302,40.78145] [-73.9867267012596,40.7014031725772] [-73.98154004,40.6792788] [-73.9646795,40.6804836] [-74.00731853,40.70706456] [-73.97809472,40.736502] [-73.938475,40.6800105] [-73.95451,40.74731] [-73.99193043,40.71173107] [-73.957539,40.745038] [-73.96023854,40.68900443] [-73.94733276,40.74524768] [-73.94728331,40.7877214] [-73.941747,40.80698] [-73.934171,40.770845] [-73.9647628,40.68851534] [-73.98690506,40.76584941] [-73.99645295,40.6861758] [-73.9596082,40.6765198] [-73.9492286,40.8125511] [-73.9169858,40.7671] [-73.99011,40.732647] [-73.99480012,40.72317958] [-73.9419949,40.8005385] [-73.9680438,40.6794388] [-73.9671457,40.6740123] [-73.9992338418961,40.7493702419328] [-73.99851193,40.71307916] [-73.96922273,40.68415748] [-73.9379,40.8029263] [-73.99404649,40.72903917] [-73.9504154,40.72179134] [-73.926241,40.697842] [-74.00016545,40.71117416] [-74.0090009,40.71870987] [-73.9485678,40.7552433] [-73.93797,40.751047] [-73.9170071,40.7611488] [-73.91727,40.7098] [-73.95852515,40.7190095] [-73.97839676,40.6703837] [-73.969024,40.6767] [-73.9437303,40.7016657] [-73.9592193067074,40.7224818863822] [-73.95399026,40.68216564] [-73.98282002,40.6772744] [-73.9870295,40.71559509] [-73.97536082,40.74144387] [-73.95299117,40.72708584] [-73.95850939,40.71745169] [-74.00348559,40.6830456] [-73.9609,40.6721683] [-73.96222088,40.773763] [-73.94818595,40.70411791] [-73.944024,40.711863] [-73.9441232,40.7954121] [-73.99061728,40.76669671] [-73.99422366,40.7158155] [-73.9710097,40.6809741] [-73.9622622728348,40.758923863777] [-73.99431,40.735445] [-74.00670227,40.70355377] [-73.9794525504112,40.6610633719006] [-73.92852,40.69329] [-73.98016555,40.71739973] [-73.988639,40.768254] [-73.96603308,40.75797322] [-73.9854617,40.6663181] [-73.932719,40.757186] [-73.9561677,40.6758324] [-73.92825,40.69502] [-73.9752320945263,40.6751468387098] [-73.9468208,40.7724607] [-73.9398167,40.8013066] [-73.92146,40.69146] [-73.9442507,40.8014866] [-73.90756,40.68139] [-73.90474,40.67945] [-73.9596214,40.8086249] [-73.91164,40.69545] [-73.98940236,40.70255088] [-73.9845165610313,40.6884174275408] [-73.98352355,40.6728155] [-73.942954,40.80295] [-73.98990025,40.71427487] [-73.95234386,40.71413311] [-73.98876585,40.6705135] [-73.93889,40.72226] [-74.00297088,40.72710258] [-73.918877,40.698568] [-73.975767,40.72387] [-74.034234,40.7192517] [-74.0103006362915,40.7201952143747] [-73.9901572465897,40.695317277669] [-73.97738662,40.7381765] [-73.94860294,40.7859201] [-73.90951,40.68929] [-73.9891795814037,40.7636046779586] [-74.01322069,40.71754834] [-74.03281,40.71687] [-73.97422494,40.72580614] [-73.9532473683357,40.8143944379158] [-73.9631611,40.6737236] [-73.933871,40.706237] [-73.93921,40.70099] [-73.944507,40.715143] [-73.90623,40.68281] [-73.97087984,40.6729679] [-73.99069656,40.72502876] [-73.9490782,40.8025566] [-73.97877,40.69178] [-74.00674436,40.73172428] [-73.98802084,40.7172274] [-73.98379855,40.72621788] [-73.944846,40.7989445] [-73.94552579,40.7862586] [-73.937261,40.796879] [-73.997178,40.698458] [-73.989111,40.722055] [-73.99726235,40.74238787] [-73.9558732509613,40.7443632870669] [-73.95068615,40.77565541] [-73.9813018,40.69196566] [-73.95032283,40.70029511] [-73.98266566,40.77492513] [-73.9500739,40.8011939] [-73.9389152,40.799139] [-73.96961715,40.78472675] [-73.976682,40.68691865] [-74.005226,40.751396] [-73.96784384,40.75206862] [-73.9534573,40.7449067] [-73.97668709,40.72228087] [-73.9830426871777,40.6896218879033] [-73.9552013576031,40.7181696945421] [-73.96685276,40.77282817] [-73.95698119,40.71286844] [-73.98261428,40.77163851] [-73.974124,40.7941654] [-74.00859207,40.7361967] [-73.959432,40.68186] [-74.0127234,40.70255065] [-73.96024116,40.71534825] [-73.98288594,40.77748046] [-73.949373,40.8078316] [-73.9912551,40.76019252] [-73.953149,40.809725] [-73.9842844,40.69221589] [-73.9851615,40.76370739] [-73.9999786,40.69165183] [-73.98759104,40.6864442] [-73.923511,40.69047] [-73.9236611,40.7557327] [-73.991479,40.719383] [-73.97265183,40.68753406] [-73.98751968,40.73827428] [-73.99475825,40.680611] [-73.96536851,40.69196035] [-73.94073717,40.75110165] [-73.9799219369888,40.752165280622] [-73.950503,40.7849032] [-73.94335788,40.75325964] [-73.9622461795807,40.7671284034954] [-73.9184057,40.7699176] [-73.9659959077835,40.6832386546034] [-73.95621,40.72606] [-74.00552427,40.71146364] [-73.97363831,40.668132] [-73.9631145,40.6716493] [-73.95856158,40.77314236] [-73.9681805305,40.8021174] [-73.971888,40.7937704] [-73.97282625,40.75255434] [-73.94100005,40.71247661] [-74.0469637513161,40.7352083804536] [-73.93223,40.69544] [-73.90506,40.68906] [-73.9728891849518,40.7901794809508] [-73.95779,40.72906] [-74.0106278657913,40.6553997744783] [-73.96724467,40.76095756] [-73.9559308,40.8038654] [-73.997249007225,40.722103786686] [-74.01361706,40.70463334] [-73.9937996864319,40.7589848139963] [-73.9756733179092,40.6809447234773] [-73.97069431,40.75828065] [-73.9477649331093,40.8094953477795] [-73.95095259,40.70877084] [-73.99852205,40.73226398] [-73.94370784,40.7892105] [-73.95033068,40.7904828] [-73.99994661,40.73781509] [-73.921631,40.756913] [-73.968896,40.693261] [-73.936322,40.805726] [-74.00666661,40.71911552] [-73.97111473,40.6750207] [-73.95796783,40.70708701] [-74.01167797,40.70365182] [-73.959223,40.759107] [-73.9612547,40.8120562] [-74.0112233161926,40.7148515052625] [-74.009447,40.711066] [-73.97895137,40.68312489] [-73.97768752,40.72521311] [-73.9452087,40.808442] [-73.9518776,40.8114323] [-73.9432635,40.74718234] [-73.98889957,40.73223272] [-73.97402311,40.7597108] [-73.96069399,40.7781314] [-73.99595065,40.69512845] [-73.98291153,40.7568001] [-74.000472,40.726378] [-74.0639126300812,40.7308970978618] [-73.9209334552288,40.7675487799971] [-73.99147535,40.72229346] [-73.925921,40.761584] [-73.97573881,40.73314259] [-73.95826,40.73266] [-73.94755757,40.7903051] [-73.99063168,40.6867443] [-73.99810231,40.72917025] [-73.98473765,40.73624527] [-74.002950346,40.749717753] [-73.987167,40.695065] [-73.9796772,40.68683208] [-73.99144871,40.74395411] [-73.976806,40.739445] [-73.96060712,40.7699426] [-73.9551508,40.81] [-73.986274,40.720747] [-73.946041,40.7779453] [-73.99461843,40.76009437] [-73.97109243,40.76350532] [-74.008591,40.728846] [-73.9170074,40.7711528] [-73.96592976,40.75455731] [-73.9168,40.68663] [-73.99682619,40.71117444] [-73.97283406,40.78499979] [-73.933492898941,40.7518695142188] [-73.9573645591736,40.81028506306] [-73.9521,40.74966] [-73.9664492472,40.8008363] [-73.9524292945862,40.7894854155322] [-73.9523,40.7987859] [-73.98912867,40.68926942] [-73.9448625,40.70870368] [-73.99906065,40.73047747] [-73.98191841,40.76915505] [-73.981095,40.714211] [-73.955613,40.799484] [-73.9396861,40.8045555] [-74.0093551576138,40.7133418427591] [-73.97948148,40.71219906] [-73.99884222,40.76030096] [-73.9879739284515,40.7353670556054] [-73.957145,40.801694] [-74.00637,40.70437] [-74.00495,40.70838] [-73.98455,40.75492] [-73.95348296,40.76663814] [-74.000939,40.735918] [-73.991581,40.7003] [-73.97995466,40.72299208] [-73.9542746543884,40.7747794489573] [-73.94594,40.7817212] [-74.002353,40.752694] [-73.95939,40.78307] [-73.948800265789,40.7176619708399] [-73.955327,40.7835016] [-73.9559590816498,40.78141070019] [-73.99301222,40.76269882] [-74.00247214,40.71939226] [-74.01234218,40.70122128] [-73.97706058,40.74290902] [-73.98362492,40.78414472] [-73.991833627224,40.6910292567797] [-73.98672378,40.73047309] [-73.98978041,40.7262807] [-73.9488134,40.778301] [-73.968087,40.7919557] [-73.9779075980186,40.6850680730818] [-73.981687,40.783786] [-73.9734419,40.74780373] [-73.95212324,40.72311651] [-73.9770036935806,40.7931348098666] [-73.954692,40.805159] [-73.956461,40.813358] [-73.98631746,40.69236178] [-73.95482273,40.7689738] [-74.000271,40.735238] [-73.95242,40.71924] [-73.9471673,40.7839636] [-73.960405,40.818299] [-73.98128127,40.78720869] [-73.9888858795166,40.777507027548] [-74.00214988,40.73038599] [-73.98658032,40.75513557] [-73.9711457439,40.8013434] [-74.0074735879898,40.742753828659] [-74.0046073,40.71273266] [-73.97667321,40.78524672] [-73.99383605,40.70277159] [-74.01658354,40.7153379] [-73.9622206985951,40.7647185194434] [-74.0050703287125,40.739448201304] [-73.97374737,40.77896784] [-73.9923003315926,40.6942811413973] [-73.9496558904648,40.7811222993417] [-73.97041192,40.7973721] [-73.99266288,40.71893904] [-73.9645,40.795] [-73.95249933,40.7922553] [-74.00612572,40.70530954] [-74.002381414175,40.7217000523561] [-73.98955109,40.7403432] [-73.9521667,40.7806284] [-73.97121414,40.75022392] [-73.964928,40.805973] [-73.9790689945221,40.7667405590595] [-74.0091059,40.71625008] [-74.00562789,40.71450451] [-73.95407149,40.77801203] [-73.978059142828,40.7572456791173] [-74.00887308,40.70717936] [-74.005549,40.717571] [-73.9659208059311,40.7678008014813] [-73.9634,40.8109494] [-73.94839,40.72984] [-73.9798200130463,40.7613298312481] [-73.98338988,40.75038009] [-73.98490707,40.74765947] [-73.99565293,40.72456089] [-73.9590255,40.8143256] [-73.96094022,40.7612274] [-73.9856243133545,40.7805779901033] [-73.976831,40.727243] [-73.99098507,40.7575699] [-73.9974018931389,40.754691750226] [-73.9584079384804,40.7687620293096] [-73.98426726,40.72953837] [-73.967641,40.755293] [-73.98855723,40.7462009] [-73.97648516,40.75992262] [-74.013012,40.7149787] [-73.96703464,40.7691572] [-73.96186,40.795346] [-73.95772297,40.77112927] [-73.953559,40.787801] [-74.0431174635887,40.7195861164717] [-73.96119945,40.76873687] [-73.9916,40.749156] [-73.98997825,40.72019576] [-73.95284,40.73555] [-73.9489196240902,40.7824541752799] [-73.94016171,40.70767788] [-74.00293877,40.73401143] [-73.9576801,40.6707767] [-73.9949034154415,40.7314372408523] [-73.940636,40.7031724] [-74.00926027,40.7047177] [-74.0087020397186,40.6570886666849] [-73.97782542,40.7734066] [-73.9891869574785,40.7751595343424] [-73.964094221592,40.7711828754066] [-74.00722156,40.70862144] [-73.99190759,40.71605866] [-73.960876,40.710451] [-73.9747,40.78839] [-74.0026376103,40.7390169121] [-73.989494740963,40.6924182925785] [-73.94989233,40.7728384] [-73.99974372,40.71602118] [-73.9641,40.8082] [-73.98859651,40.75929124] [-73.9488539099693,40.7191557169604] [-73.9607082,40.8067581] [-73.957481,40.7857851] [-74.00234482,40.71494807] [-74.00653609,40.70955958] [-74.01043382,40.70905623] [-73.95411749,40.74232744] [-73.98517977,40.72066442] [-73.97973776,40.73912601] [-73.98303529,40.74444921] [-73.9966213703155,40.7270636334831] [-73.99596,40.718822] [-73.97604882,40.7489006] [-73.95772073,40.77862688] [-74.002751,40.708485] [-73.96295,40.802692] [-73.97137,40.78275] [-73.973736,40.697787] [-73.9858362078667,40.7230774906867] [-73.98721619,40.75299641] [-73.9821535348892,40.7431155537649] [-73.98014437,40.75500254] [-73.973984,40.730563] [-73.98255,40.758397] [-73.9720952510834,40.7630259428052] [-73.9590097,40.77677702] [-73.99529885,40.74487634] [-74.00451887,40.74691959] [-73.9806796610355,40.7296672939298] [-73.97966069,40.74394314] [-73.96223558,40.69363137] [-73.99456405,40.73971301] [-73.9421253,40.8428422] [-73.971518,40.766368] [-73.97757,40.789622] [-73.964273929596,40.7763214218227] [-73.97032517,40.75323098] [-73.99238967,40.73726186] [-74.013942,40.701907] [-73.98564945,40.72779126] [-73.98713956,40.7284186] [-73.97041561,40.7882213] [-73.9664947986603,40.799041392883] [-73.94803392,40.77536905] [-73.9567526,40.77573034] [-73.992085,40.734814] [-73.97634151,40.76590936] [-74.007756,40.746745] [-73.9628684520721,40.7940666081855] [-74.01713445,40.70834698] [-74.00176802,40.75066386] [-73.996732,40.714193] [-73.9919254,40.72110063] [-73.962658,40.759125] [-73.99415556,40.74173969] [-73.9550858,40.73232194] [-74.00711384,40.73291553] [-74.00149746,40.74177603] [-74.008119,40.739323] [-73.981013,40.689888] [-73.9762057363987,40.7757937668367] [-73.947526216507,40.7248125644002] [-73.993915,40.746647] [-73.97207836,40.75714758] [-73.94434,40.72557] [-73.986389,40.725864] [-73.996429592371,40.7380461424828] [-73.99138152,40.75466591] [-73.96526895,40.76312584] [-74.00277668,40.76087502] [-73.98336183,40.76228826] [-73.98602213,40.74096374] [-73.98848395,40.74901271] [-73.96759673,40.75934501] [-73.978434,40.763189] [-73.98165557,40.73221853] [-73.99074142,40.73454567] [-73.9805442094803,40.7338121919663] [-73.9891862869263,40.7428687731211] [-73.98185424,40.72453734] [-73.9616507291794,40.7203677529846] [-73.99392888,40.76727216] [-74.0021163,40.75594159] [-73.9809304475784,40.7796680900731] [-73.98194829,40.7457121] [-73.983293,40.741459] [-74.00483091,40.73535398] [-73.9535166,40.77140426] [-73.9802518486977,40.7541208107793] [-73.971878855,40.7546011026] [-73.9910262823105,40.7302066052995] [-73.98085795,40.7208736] [-73.982079,40.752269] [-73.9744978398085,40.7432268143217] [-73.96905301,40.75001986] [-73.99510132,40.73331967] [-73.990752696991,40.7295149622495] [-73.964839,40.79127] [-73.99800419,40.73532427] [-73.9772853255272,40.7801839724239] [-73.9605909006,40.7981856] [-73.99915362,40.74475148] [-73.97371465,40.7643971] [-73.993934,40.751551] [-73.99009296,40.73704984] [-73.99723551,40.74734825] [-73.97898475,40.7770575] [-73.98788205,40.76227205] [-73.98805,40.74964] [-73.99949601,40.72362738] G   F   KEY,CREDITCARD :   M      8   >   P      0   9   =   <   N   A   D   O   F   G   ,   H   ?   E                                                          !   "   #   $   %   &   '   (   )   *   +   -   .   /   1   2   3   4   5   6   7   ;   B   C          2   E      .   3   B      !   %   #   &   $      1                              	      
+                                                       "       (   +   *   )   /   0   '                         	                                     !   "   $   %   +   -   .   2   5   :   ;                      
+                                       #   &   '   (   )   *   ,   /   1   7   B   C          
+      	                   Ÿ«   «             A A €‚  €Ã  Â €€E D€†… ÇÆ€  €	 I	 H	$ 
+$Š
+ˆ
+(€(ËÉ,€
+0€,M K4€0‹ ‹8€4È Ì<€8@€0GMD€<ˆH€ ÎÎL€$P€ NNT€@‰X  ÎÏ\€D`€(QQd ’’h€(Ó Ól€$ p€HTTt€L• •x€PÖ Ö|à P  €€!,X! X!„ "T“"™"ˆ#TÓ#Ù#Œ$T	$	$%TY	%[	%”&T™	&›	&˜'TĞ	' Ü	'œ(T
+(
+( )TW
+)\
+)¤*T
+*
+*¨+TĞ
++İ
++¬,T,,°-TZ-@-´.T›..¸/TÜ/Ã/¼0T0 0À1XZ1A1Ä€2Xš22È 3XÛ3Â3Ì 4X44Ğ€5XF5 ^5Ô€6\6™6Ø 7\Õ7Ü7Ü 8\8 8à€9\B9D9ä€:\œ:…:è ;\Ü;Å;ì <\<<ğ =\]=`=ô >\> >ø ?`ß?Ú?ü€@` @ @ A`YA\AB` BœBC`ÕCİCD`DD‘E`UE]EF`¡F€FG`áGÀGH`HH I`WIBI$J`—J‚J(K`ĞKßK,L`LL0M`PM_M4N`šNƒN8O`ÚOÃO<P`PP@Q`[Q^QDR`›RRHS`ÒSÄSLT`TTPU`BUEUTV`‚V…VXW`ÂWÅW\X`XX`Y`]YaYdZ`¢Z¢Zh[dã[Ù[l\d#\\p]dX] Y]t^d£^™^x_dã_Ù_|`d#``€adcaYa„bd£b™bˆcdØcãcŒddd#dedXece”fdfšf˜gdŞgÚgœhdhh id_i Zi¤jdŸj¤j¨kdßkäk¬ldl$l°md_mdm´nd–n›n¸odÖoÛo¼pdppÀqd`q \qÄrd r œrÈsdÓsÜsÌtd ttĞud`u]uÔvd vvØwdÕwÀwÜxdx xàydUy@yäzd¡zzè{dÙ{ Á{ì|d||ğ}dP} _}ô~d—~Ÿ~ød×ßü€d € € ‚dW _ ‚d ‚ƒ ‚‚ƒdĞ ƒÃ ƒ‚„d!„!„…dP!…C!…†dš!†!†‡dÚ!‡Ş!‡ˆd"ˆ"ˆ ‚‰d["‰D"‰$‚Šd’"Š „"Š(‹dÛ"‹Ä"‹,Œd#Œ#Œ0d[#D#4d›#„#8dÒ#Å#<d$$@‘dR$‘E$‘D’d’$’…$’H‚“dÜ$“ Æ$“L‚”d%”%”P‚•dB%•F%•T–d‚%–†%–X—dÂ%—Æ%—\˜d&˜ &˜`™d\&™`&™d‚šd†&š  &šh›dÆ&›á&›l‚œd'œ!'œpd]'b'td'¢'x‚Ÿdâ'ŸÇ'Ÿ| d"( ( €¡h^(¡ Z(¡„‚¢h–(¢œ(¢ˆ‚£hà(£À(£Œ¤h )¤ )¤¥ha)¥B)¥”‚¦h¡)¦‚)¦˜‚§hÙ)§ß)§œ‚¨h*¨*¨ ©h[*©E*©¤‚ªh›*ª…*ª¨«hÂ*«à*«¬‚¬h+¬ +¬°­h\+­a+­´®hœ+®¡+®¸¯hÆ+¯â+¯¼°h,°,°À±ld,±Y,±Ä²l¤,²™,²È‚³lä,³Ù,³Ì´l%-´#-´Ğµlc-µZ-µÔ‚¶l˜-¶ š-¶Ø·lŞ-·Û-·Ü‚¸l.¸.¸à¹l^.¹[.¹äºl.º›.ºè‚»lß.»Ü.»ì¼l/¼/¼ğ½l_/½\/½ô¾l–/¾/¾ø¿lÖ/¿İ/¿üÀl 0À  0À ÁlS0Á@0ÁÂl 0Â0ÂÃlà0ÃÁ0ÃƒÄl1Ä1ÄƒÅlU1ÅB1ÅƒÆl¡1ÆŸ1ÆƒÇlá1Çß1ÇÈl!2È2È ÉlP2ÉD2É$Êlš2Ê…2Ê(ËlÛ2ËÆ2Ë,ƒÌl3Ì3Ì0Íl[3ÍF3Í4Îl’3Î 3Î8ÏlÒ3Ïà3Ï<Ğl4Ğ!4Ğ@Ñl\4Ñb4ÑDÒl†4Ò‡4ÒHÓlİ4Óå4ÓLÔl5Ô%5ÔPÕl]5Õe5ÕTÖl¢5Öˆ5ÖX×lâ5×È5×\Øl"6Ø6Ø`Ùpc6Ùd6ÙdÚp˜6Ú›6ÚhÛpŞ6ÛÜ6ÛlƒÜp7Ü7ÜpİpS7İ @7İtŞp“7Ş7Şxßpà7ßÂ7ß|àp8à8à€ápa8áC8á„âp™8â8âˆƒãp×8ãÄ8ãŒäp9ä9äåpZ9å E9å”æp9æ…9æ˜çpÚ9çÆ9çœèp:è  :è ép[:é`:é¤ƒêp‚:ê¢:ê¨ëpÆ:ë Ç:ë¬ƒìp;ì;ì°íp\;íG;í´ƒîpœ;î‡;î¸ïtä;ïÙ;ï¼ƒğt<ğ<ğÀñtf<ñ Y<ñÄòt¦<ò ™<òÈótä<ó ã<óÌƒôt&=ô#=ôĞõtf=õc=õÔöt¤=öš=öØƒ÷tä=÷Ú=÷Üøt>ø$>øàƒùte>ùd>ùäút¥>ú¤>úèƒûtã>ûÛ>ûìüt?ü ?üğƒıt^?ı \?ıôşt?ş œ?şøƒÿtŞ?ÿ Ü?ÿüƒ u@ @ du^@]@„u@@	uŞ@İ@uAAu_A@A„uŸA€A„ußAÀAuB B!	u_B	@B	%
+u“B
+B
+)„uÖBÁB-„uCC1uSCBC5u“C‚C9uàCßC=„u DDA„u`D_DEu•DŸDI„uáDÃDM„u!EEQ„uYEDEUu—E…EY„u×EÅE]„uFFauPFFFeušF FiuÚFàFmuG Gq„u[GaGu„uœG¡Gy„uÛGáG} uH !H !u[H!aH!…"u’H"¢H"‰„#uÂH#âH#„$uI$"I$‘„%uRI%bI%•„&u‚I&‡I&™„'uÜI'ÇI'(uJ(J(¡)uBJ)GJ)¥*u‚J*‡J*©+uÂJ+ÇJ+­„,uK,K,±-u\K-eK-µ„.uœK.¥K.¹„/uÜK/åK/½„0uL0%L0Á„1uFL1eL1Å2u†L2ˆL2É„3uÆL3ÈL3Í4uM4&M4Ñ5ubM5gM5Õ6y‘M6™M6Ù7yÎM7ÙM7İ8yN8N8á9yQN9cN9å„:y£N:-£N:éä;yÑN;ãN;íä<y&O<O<ñ„=ydO=ZO=õ>y£O>œO>ù„?yØO?İO?ı„@yP@P@Ay_PAAPABy–PB‚PB	…CyÓPCÂPCDy QDQDEyaQEDQEFy—QF†QFGyĞQGàQG…HyRH!RH!…Iy[RIbRI%Jy›RJ¢RJ)KyÛRKâRK-LySLSL1MyBSMeSM5…Ny‚SN¥SN9…OyÜSOÈSO=…PyTPTPA…Qy\TQHTQERyœTRˆTRISyÜTSÈTSMT}'UTUTQ…U}NUUYUUUV}§UV™UVYW}æUW	ãUW]…X}VX#VXa…Y}NVYcVYe…Z}VZ£VZi…[}ÎV[ãV[m…\}W\#W\q]}fW]dW]u^}¦W^¤W^y…_}äW_ÛW_}å`}$X`X`a}dXa[Xa…b}¥XbœXb‰c}åXcÜXc…d}%YdYd‘e}cYe]Ye•…f}˜Yf€Yf™g}ŞYgÁYg…h} ZhZh¡i}SZiCZi¥…j}•Zj„Zj©…k}ÕZkÄZk­…l}![l[l±…m}a[mE[mµn}™[n†[n¹o}×[oà[o½…p}\p \pÁq}P\qa\qÅr}\r¡\rÉs}Ú\sá\sÍt}]t!]tÑu}Z]ub]uÕv}š]v¢]vÙw}Ú]wâ]wİx}^x"^xáy}[^yG^yåz}›^z‡^zé…{}Û^{Ç^{í…|}_|_|ñ…}}[_}G_}õ…~}’_~¥_~ù…}Â_å_ı€}`€%`€†}B`H`f‚}œ`‚¦`‚	ƒ}Ü`ƒæ`ƒ„}a„&a„…}\a…fa…†}œa†¦a††‡}Æa‡ça‡†ˆ}bˆ'bˆ!†‰}]b‰Ib‰%Š}¢bŠ¨bŠ)†‹}âb‹èb‹-Œ}"cŒ(cŒ1NcZc5šcE‚c9ßcßc=ddA‘Pd‘bd‘E’šd’‡d’I“Òd“Èd“M†”e”&e”Q†•Fe•ge•U–†e–‰e–Y—İe—èe—]˜…'f˜#f˜a™…Tf™cf™eš…”fš£fši†›…çf›Úf›mœ…'gœgœq…Ngdgu†…g¤gyŸ…ÎgŸägŸ} …h $h †¡…Nh¡dh¡…†¢…‘h¢›h¢‰†£…æh£Ûh£†¤…i¤i¤‘†¥…fi¥[i¥•†¦…¦i¦›i¦™§…Ñi§Ûi§¨…j¨j¨¡†©…fj©\j©¥†ª…¦jªœjª©«…æj«Üj«­†¬…%k¬k¬±†­…ek­]k­µæ®…¤k®k®¹¯…åk¯İk¯½†°…$l°l°Á±…dl±]l±Å²…¥l²€l²É†³…ål³Àl³Í´…%m´ m´Ñµ…emµ@mµÕ¶…£m¶m¶Ù†·…ãm·Ám·İ¸…n¸n¸á†¹…Xn¹Bn¹åæº…nº‚nºé†»…Şn»Ân»í†¼…o¼o¼ñ†½…^o½_o½õ†¾…–o¾ƒo¾ù¿…Öo¿Ão¿ıÀ…pÀpÀÁ…VpÁCpÁÂ…ŸpÂƒpÂ	‡Ã…ÖpÃŞpÃ‡Ä…qÄqÄÅ…`qÅDqÅ‡Æ…“qÆ„qÆ‡Ç…ÓqÇÄqÇ‡È… rÈrÈ!É…UrÉErÉ%‡Ê… rÊ…rÊ)Ë…árËàrË-‡Ì…sÌ sÌ1Í…asÍ`sÍ5‡Î…¡sÎ sÎ9‡Ï…ásÏàsÏ=gĞ…tĞ!tĞA‡Ñ…YtÑatÑE‡Ò…—tÒ¡tÒIÓ…ÙtÓátÓMÔ…uÔ"uÔQÕ…WuÕbuÕUÖ…—uÖ¢uÖY‡×…Ğu×Çu×]‡Ø…vØvØa‡Ù…PvÙGvÙe‡Ú…švÚ‡vÚiÛ…ÚvÛåvÛm‡Ü…wÜwÜq‡İ…RwİHwİu‡Ş…›wŞˆwŞyçß…Âwßæwß}‡à…xà&xàá…Rxáfxá…â…‚xâ§xâ‰‡ã…Âxãçxã‡ä…yä'yä‘å…Byågyå•æ…‚yæ§yæ™ç…Âyççyçè…zè	zè¡é…\zéIzé¥‡ê…œzê‰zê©‡ë…Æzëèzë­‡ì…{ì({ì±‡í…b{íJ{íµ‡î‰”{îš{î¹‡ï‰å{ïÁ{ï½‡ğ‰|ğ|ğÁ‡ñ‰V|ñD|ñÅò‰|ò¥|òÉ‡ó‰Ú|óÈ|óÍô‰}ô	}ôÑõ‰F}õi}õÕöŒ}ö™}öÙ÷Ì}÷Ù}÷İø~ø$~øá‡ùN~ù[~ùåú¦~ú~úé‡ûä~ûÁ~ûíü%üüñıeıBıõ‡şŸş	ƒşùçÿŞÿŞÿıç € € ˆS€E€ˆ–€…€
+ˆÓ€Æ€ˆ  ˆ``  àà‚!‚"	a‚	b‚	&ˆ
+¡‚
+¢‚
+*á‚â‚.ƒƒ2\ƒiƒ6œƒ©ƒ:ÆƒÊƒ>„„Bˆ’L„c„Fˆ’¨„š„Jˆ’è„ä„Nˆ’'……Rˆ’d…
+@…Vˆ’¦……Z’ä…Â…^’$††b’c†_†fˆ’¥†Ÿ†j’å†ß†nˆ’#‡‡r’X‡C‡v’˜‡‡zè’Ş‡Ä‡~ˆ ’ˆ ˆ ‚ˆ!’^ˆ!Dˆ!†"’–ˆ"…ˆ"Š#’Óˆ#Æˆ#è$’‰$"‰$’%’W‰%
+G‰%–&’™‰&¥‰&š'’Ğ‰'È‰'(’Š(Š(¢ˆ)’WŠ)HŠ)¦*’›Š*‰Š*ªˆ+’İŠ+êŠ+®,’"‹,‹,²ˆ-–i‹-Y‹-¶ˆ.–©‹.™‹.º/–ê‹/ã‹/¾ˆ0–Œ0Œ0Âˆ1–OŒ1ZŒ1Æˆ2–¨Œ2¤Œ2Êˆ3–ÏŒ3äŒ3Îˆ4–44Òˆ5–h5[5Öˆ6–¨6›6Ú7–Ô7Ü7Ş8–88âˆ9–T9\9æˆ:–”:œ:ê;–Î;À;îˆ<–< <òˆ=–N=@=ö>–>€>ú?–Ñ?Á?şˆ@–&@@iA–dA_A‰B–¤BŸB
+‰C–åCßC‰D–$‘D‘D‰E–e‘EC‘E‰F–£‘Fƒ‘F‰G–ã‘GÃ‘G	H–#’H’H"iI–X’ID’I&‰J–’J„’J*	K–Ø’KÄ’K.	L–“L“L2‰M–_“ME“M6‰N–Ÿ“N†“N:‰O–ß“OÆ“O>‰P–”P”PB	Q–_”QF”QF	R––”R ”RJ‰S–Ó”Sá”SN	T–•T"•TR‰U–U•Ub•UV‰V–¡•V‡•VZ‰W–á•WÇ•W^	X––X–Xb	Y–a–Ye–Yf	Z–¡–Z¥–Zj‰[–Ù–[È–[n‰\–—\—\r‰]–W—]f—]v	^–—^§—^z‰_–Û—_É—_~i`–˜`f	˜`‚‰a–[˜ah˜a†	b–’˜b©˜bŠ‰c–Ò˜cé˜c	d–™d)™d’	e–B™ei™e–	f–‚™fŠ™fš	g–Ü™gË™géh–šhšh¢ii–]šijši¦	j–šjŒšjª‰k–İškÌšk®	lš›l$›l²‰mšO›m[›m¶‰nš¡›nˆ›nº‰ošá›oÈ›o¾pšœp	œpÂ	qšZœqhœqÆ	ršœœrªœrÊ	sÇœsÙœsÎ	t*ttÒ	uOu\uÖ‰v¨vvÚ‰wçw@
+wŞéxxÀxâéyQy yæ‰z§zAzê‰{Î{‚{î‰|Ÿ|Â|ò‰}QŸ}Ÿ}ö	~¥Ÿ~DŸ~ú‰ßŸ¡Ÿş‰€ €âŸ€ŠS  Š‚“ ‚G ‚
+
+ƒà ƒ¥ ƒŠ„ ¡„å „
+…a¡…¡…Š†¡¡†f¡†j‡Ú¡‡"‰¡‡Šˆ¢ˆ
+Ê¡ˆ"Š‰R¢‰¢‰&ŠŠ’¢ŠK¢Š*Š‹Â¢‹ª¢‹.ŠŒ£ŒÌ¢Œ2Š¢O££6Š¢§£B£:Š¢ç£‚£>j¢&¤Ş£BŠ‘¢^¤‘!¤‘F
+’¢“¤’e¤’JŠ“¢à¤“ˆ¤“N
+”¢!¥”ç¤”RŠ•¢Z¥•
+¥•V
+–¢›¥–K¥–ZŠ—¢Û¥—‹¥—^Š˜¢"¦˜Î¥˜bš™¦G¦™¦™fŠš¦ª¦š
+d¦šjŠ›¦é¦››¦›n
+œ¦(§œ
+İ¦œrŠ¦O§ §vŠ¦¨§A§zŠŸ¦Ô§Ÿ‚§Ÿ~
+ ¦¨ ß§ ‚Š¡¦g¨¡¨¡†
+¢¦¨¢C¨¢ŠŠ£¦Î¨£ƒ¨£Š¤¦$©¤Å¨¤’Š¥¦U©¥†©¥–Š¦¦Ÿ©¦b©¦šŠ§¦Ş©§¢©§Š¨¦ª¨å©¨¢
+©¦Vª©%ª©¦Šª¦“ªªHªªª
+«¦Õª«§ª«®Š¬¦«¬çª¬²
+­¦W«­(«­¶
+®¦™«®h«®ºŠ¯¦×«¯©«¯¾Š°¦¬°Ë«°ÂŠ±¦[¬±*¬±ÆŠ²¦›¬²j¬²Ê
+³¦Â¬³Œ¬³Î
+´¦­´ë¬´ÒŠµ¦\­µ­µÖ
+¶¦­¶O­¶Ú
+·¦â­·¬­·Ş
+¸ª+®¸Ú­¸âŠ¹ªL®¹ ®¹æŠºª®º^®ºê
+»ªã®» ®»îŠ¼ª¯¼â®¼òê½ª^¯½"¯½öŠ¾ª˜¯¾b¯¾úê¿ªÙ¯¿©¯¿şŠÀª°Àé¯À‹ÁªZ°Á*°Á‹Â®‹°Âc°Â
+‹Ã®Ç°Ã¤°Ã‹Ä®(±Äß°ÄÅ®f±Å±Å‹Æ®£±Æb±Æ‹Ç®ß±Çˆ±ÇÈ®²Èç±È"É®S²É'²É&‹Ê®¡²Êi²Ê*‹Ë®Ù²ËŠ²Ë.‹Ì®³Ìë²Ì2‹Í²J³Í³Í6Î²‹³ÎZ³Î:‹Ï²Ó³Ï‰³Ï>kĞ²!´ĞÊ³ĞBÑ²W´Ñ*´ÑFkÒ²’´ÒN´ÒJÓ¶Ê´Ó™´ÓN‹Ô¶µÔ
+ã´ÔR‹Õ¶HµÕµÕVëÖ¶ˆµÖZµÖZ‹×¶ëµ×šµ×^Ø¶¶ØÚµØb‹Ù¶K¶Ù$¶Ùf‹Ú¶‹¶Úd¶Új‹Û¶Ë¶Û¤¶Ûn‹Ü¶·Üä¶Ür‹İ¶K·İ$·İv‹Ş¶‰·Şd·Şzß¶ë·ß›·ß~‹à¶+¸àÜ·à‚‹á¶k¸á¸á†‹â¶«¸â\¸âŠã¶ë¸ãœ¸ãä¶¹äİ¸ä’‹å¶G¹å¹å–æ¶¬¹æ@¹æš‹ç¶ì¹ç€¹ç‹è¶)ºèÁ¹è¢‹é¶iºéºé¦ê¶ŒºêBºêªë¶çºë
+ºë®ì¶»ìÄºì²ëí¶N»í»í¶‹î¶»îE»îºëï¶æ»ï »ï¾ğ¶#¼ğÇ»ğÂ‹ñ¶X¼ñ%¼ñÆ‹ò¶˜¼òH¼òÊ‹ó¶Ş¼óˆ¼óÎëô¶½ôÈ¼ôÒ‹õ¶X½õ½õÖ‹ö¶½öf½öÚk÷¶ß½÷¦½÷Ş‹ø¶¾øæ½øâù¶V¾ù	¾ùæ‹ú¶“¾úh¾úê‹û¶Ó¾û¨¾ûî‹ü¶¿üé¾üòkı¶a¿ı¿ıö‹ş¶¡¿şK¿şú‹ÿ¶×¿ÿª¿ÿş‹ ·À ê¿ ·WÀÀŒ·šÀkÀ·ĞÀ«ÀŒ·ÁÍÀŒ·ZÁÁ·šÁMÁ·ÚÁÁŒ·ÂÎÁ#Œ	·RÂ	Â	'Œ
+·†Â
+QÂ
++·İÂ­Â/»%ÃåÂ3Œ»SÃ	Ã7Œ»™ÃLÃ;Œ»ÛÃÃ?»ÄÏÃCŒ¿mÄ#ÄG¿ˆÄdÄKŒ¿ÉÄÄOŒ¿,ÅÂÄSŒ¿cÅ ÅWŒ¿¦ÅGÅ[Œ¿åÅ¥Å_Œ¿ÆÉÅcŒ¿SÆ
+ÆgŒ¿•ÆKÆkŒ¿ÕÆ‹ÆoŒ¿ÇÍÆs¿PÇÇw¿†ÇnÇ{,¿âÇ¯Ç ¿È ïÇ ƒŒ!ÃJÈ!È!‡"Ã¦È"'GÈ"‹Œ#ÃäÈ#¥È#Œ$Ã&É$åÈ$“Œ%ÃeÉ%&É%—&Ã–É&JÉ&›l'ÃÕÉ'ªÉ'Ÿ(Ã!Ê(ëÉ(£Œ)ÃaÊ)+Ê)§Œ*Ã™Ê*MÊ*«Œ+ÃÒÊ+¬Ê+¯,ÃË,ÑÊ,³Œ-ÇIË-Ë-·Œ.Ç©Ë.^Ë.»l/ÇÏË/…Ë/¿0Ç(Ì0àË0ÃŒ1ÇfÌ1Ì1Ç2Ç¤Ì2fÌ2Ë3ÇØÌ3¦Ì3ÏŒ4ÇÍ4éÌ4ÓŒ5ÇSÍ5*Í5×Œ6Ç¡Í6MÍ6ÛŒ7ÇÙÍ7Í7ß8ÇÎ8ÏÍ8ã9ÇZÎ9Î9ç:Ç›Î:QÎ:ëŒ;ÇÛÎ;‘Î;ïŒ<ÇÏ<íÎ<ó=Ç\Ï=/Ï=÷l>Ç†Ï>pÏ>û?ÇİÏ?±Ï?ÿŒ@Ë	Ğ@ÂÏ@AËKĞAĞABËªĞBFĞBCËÎĞC‡ĞCDË%ÑDÉĞDEË^ÑE
+ÑEFË“ÑFkÑFGË×ÑGÑGHËÒHÑÑH#IËRÒI/ÒI'íJË†ÒJRÒJ+KËİÒK²ÒK/mLÏ	ÓLßÒL3MÏdÓM(ÓM7NÏŸÓNLÓN;OÏÓÓO«ÓO?PÏÔPÎÓPCQÏYÔQÔQGRÏÔRmÔRKSÏÛÔS¯ÔSOTÏÕTÓÔTSUÓnÕUÕUWVÓ¯ÕV\ÕV[WÓÈÕWÕW_XÓ+ÖXŞÕXcYÓiÖY ÖYgZÓÖZaÖZk[ÓÌÖ[¢Ö[o\Ó'×\ÈÖ\s]ÓT×]×]w^Ó§×^f×^{_ÓÑ×_§×_`ÓØ`ç×`ƒaÓeØa
+Øa‡bÓ£ØbKØb‹cÓÖØcØcdÓÙdìØd“eÓYÙe,Ùe—fÓ—ÙfmÙf›gÓÒÙg±ÙgŸh×ÚhßÙh£i×lÚi!Úi§íj×¨ÚjHÚj«ík×èÚkˆÚk¯ml×ÛlèÚl³m×^ÛmÛm·n×œÛnTÛn»oÛîÛoÛo¿pÛ/ÜpÀÛpÃqÛlÜq"ÜqÇ­rÛ¬ÜrbÜrËsÛéÜs‡ÜsÏtÛİtÈÜtÓußMİuİu×ívß°İv_İvÛwßÉİw†İwß-xßŞxçİxãyßhŞy	Şyçzß£ŞzMŞzë{ßØŞ{Ş{ï|ß#ß|ÍŞ|ó}ß`ß}-ß}÷~ß’ß~Sß~ûßÛß“ßÿ€ã,à€Çß€îãTà)à‚ã¤à‚Là‚ƒãáàƒ°àƒ„ç.á„ßà„…çoá…á…†ç‹á†`á†‡çêá‡¦á‡îˆë1âˆÀáˆ#‰ëoâ‰â‰'ŠëŒâŠhâŠ+‹ëãâ‹¬â‹/Œï2ãŒÀâŒ3ïmãã7ïˆãFã;ïËã‡ã?ïäÊãC‘ïQä‘+ä‘G’ïä’kä’K“ïÎä“«ä“O”ï#å”Ğä”S•ïXå•å•W–ïå–må–[—ïáå—±å—_˜ó3æ˜Çå˜c™óKæ™'æ™gšóŒæšLæšk›óçæ›æ›oœó#çœïæœsîóSççwó¡çsç{Ÿó×çŸ´çŸî ÷.è æç ƒ¡÷mè¡)è¡‡¢÷©è¢Nè¢‹£÷ãè£”è£î¤÷!é¤õè¤“¥ûfé¥1é¥—¦û¥é¦Té¦›§ûİé§¶é§Ÿ¨û"ê¨÷é¨£
