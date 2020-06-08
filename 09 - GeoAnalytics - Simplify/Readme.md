@@ -8,5 +8,9 @@ Você vai precisar do arquivo KMZ das rodovias, pode usar esse [aqui](http://tra
 
 **Precisei exportar o app sem dados, pelas limitações do Github quanto a tamanho de arquivos**
 
+Então anexei um segundo exemplo (DF.qvf) que é menor e mais fácil de gerenciar
+
+
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
