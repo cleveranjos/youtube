@@ -11,6 +11,5 @@ Você vai precisar do arquivo KMZ das rodovias, pode usar esse [aqui](http://tra
 Então anexei um segundo exemplo (DF.qvf) que é menor e mais fácil de gerenciar
 
 
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
