@@ -1,0 +1,28 @@
+[{
+        "target": {
+            "app": "fac6623f-03f1-45ab-a418-8570717397d6"
+        },
+        "tests": [{
+                "name": "Test 01",
+                "dimensions": ["[Numero Discado]"],
+                "measures": ["Count({<CallTypeId={2}>}[Numero Discado])"]
+            }, {
+                "name": "Test 02",
+                "dimensions": ["=[Numero Discado]"],
+                "measures": ["Count({<CallTypeId={2}>}[Numero Discado])"]
+            }, {
+                "name": "Test 03",
+                "dimensions": ["[Numero Discado]"],
+                "measures": ["Count({<CallTypeId={2}>}CallTypeId)"]
+            }, {
+                "name": "Test 04",
+                "dimensions": ["=[Numero Discado]"],
+                "measures": ["Count({<CallTypeId={2}>}CallTypeId)"]
+            }, {
+                "name": "Test 05",
+                "dimensions": ["[Numero Discado]"],
+                "measures": ["Count(if(CallTypeId=2,[Numero Discado]))"]
+            }
+        ]
+    }
+]
